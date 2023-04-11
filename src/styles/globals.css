@@ -8,6 +8,15 @@
 	box-sizing: border-box;
 	font-family: "Eudoxus Sans", sans-serif;
 	scroll-behavior: smooth;
+	background-image: linear-gradient(
+		270deg,
+		hsl(263, 78%, 13%) 0%,
+		hsl(192, 91%, 8%) 50%,
+		hsl(261, 64%, 14%) 74%,
+		hsl(265, 97%, 12%) 61%,
+		hsl(260, 79%, 15%) 100%
+	);
+	/* filter: blur(125px); */
 }
 
 .gradient-01 {

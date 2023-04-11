@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Header({}: Props) {
 	return (
-		<header>
+		<header className='gradient-01'>
 			<div>
 				<SocialIcon url='https//twitter.com/jaketrent' />
 			</div>
