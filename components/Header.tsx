@@ -7,11 +7,11 @@ export default function Header({}: Props) {
 	return (
 		<header className=' sticky top-5 items-center justify-between'>
 			<div className='flex flex-row items-center'>
-				<SocialIcon
+				{/* <SocialIcon
 					url='https://www.youtube.com/sonnysangha'
 					fgColor='black'
 					bgColor='transparent'
-				/>
+				/> */}
 			</div>
 
 			<nav className='w-full mt-16'>
