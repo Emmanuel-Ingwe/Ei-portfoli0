@@ -15,7 +15,7 @@ export default function Header({}: Props) {
 			</div>
 
 			<nav className='mt-32 p-16 bg-red-800 opacity-1 border-slate-900'>
-				<div className='flex '>
+				<div className='flex'>
 					<ul className='flex w-full ite justify-between'>
 						<li className='text-white'>About</li>
 						<li className='text-white'>Projects</li>
