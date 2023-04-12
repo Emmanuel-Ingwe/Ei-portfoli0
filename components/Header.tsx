@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Header({}: Props) {
 	return (
-		<header className=' sticky top-5 items-center justify-between'>
+		<header className='top-5 items-center justify-between'>
 			<div className='flex flex-row items-center'>
 				{/* <SocialIcon
 					url='https://www.youtube.com/sonnysangha'
@@ -14,12 +14,16 @@ export default function Header({}: Props) {
 				/> */}
 			</div>
 
-			<nav className='w-full mt-16'>
-				<ul>
-					<li className='text-white'>About</li>
-				</ul>
+			<nav className='mt-32 p-16 bg-red-500'>
+				<div className='flex items-center justify-between'>
+					<ul className='flex'>
+						<li className='text-white'>About</li>
+						<li className='text-white'>Projects</li>
+						<li className='text-white'>Blog</li>
+						<li className='text-white'>Contact Me</li>
+					</ul>
+				</div>
 			</nav>
-			<h1 className='text-3xl'>hhn3kerxnjg</h1>
 		</header>
 	);
 }
