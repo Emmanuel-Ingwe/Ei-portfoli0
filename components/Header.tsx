@@ -11,17 +11,21 @@ type img = { string: any };
 export default function Header({}: Props) {
 	return (
 		<header className='top-5 items-center justify-between'>
-			<div className='flex items-center'>
-				<img src='/logo.png' alt='' />
+			<div className='flex items-center justify-center relative top-40'>
+				<img src='/logo.png' alt='' width='100px' className='rounded-full' />
 			</div>
 
 			<nav className='mt-32 bg-gray-800 border-emerald-950 p-16'>
 				<div className='flex'>
-					<ul className='flex w-full justify-between text-3xl font-bold text-gray-400'>
-						<li className='pl-28'>About</li>
+					<ul className='flex w-full justify-between text-3xl font-semi-bold text-gray-400'>
+						<li className='pl-28'>
+							About <small className='text-sm font-extralight'>me</small>
+						</li>
 						<li className=''>Projects</li>
 						<li className=''>Blog</li>
-						<li className='pr-28'>Contact Me</li>
+						<li className='pr-28'>
+							Contact <small className='text-sm'>me</small>
+						</li>
 					</ul>
 				</div>
 			</nav>
