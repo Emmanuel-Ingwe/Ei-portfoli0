@@ -1,21 +1,18 @@
 import React from "react";
-import logo from "../images/logo.png";
+import Link from "next/link";
 
 import { SocialIcon } from "react-social-icons";
 import { type } from "os";
 
 type Props = {};
 
+type img = { string: any };
+
 export default function Header({}: Props) {
 	return (
 		<header className='top-5 items-center justify-between'>
 			<div className='flex items-center'>
-				{/* <SocialIcon
-					url='https://www.youtube.com/sonnysangha'
-					fgColor='black'
-					bgColor='transparent'
-				/> */}
-				{/* <img src={logo} alt='' /> */}
+				<img src='/logo.png' alt='' />
 			</div>
 
 			<nav className='mt-32 bg-gray-800 border-emerald-950 p-16'>
