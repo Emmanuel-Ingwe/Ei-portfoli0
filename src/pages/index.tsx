@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
 			<Header />
 
-			<section id='hero'>
+			<section id='hero' className='snap-center'>
 				<Hero />
 			</section>
 		</div>
