@@ -11,11 +11,11 @@ type img = { string: any };
 export default function Header({}: Props) {
 	return (
 		<header className='top-5 items-center justify-between'>
-			<div className='flex items-center justify-center relative top-40'>
+			<div className='flex items-center justify-center relative top-28'>
 				<img src='/logo.png' alt='' width='100px' className='rounded-full' />
 			</div>
 
-			<nav className='mt-32 bg-gray-800 border-emerald-950 p-16'>
+			<nav className='mt-20 bg-gray-800 border-emerald-950 p-12'>
 				<div className='flex'>
 					<ul className='flex w-full justify-between text-3xl font-semi-bold text-gray-400'>
 						<li className='pl-28'>

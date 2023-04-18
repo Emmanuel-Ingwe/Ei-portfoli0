@@ -6,7 +6,7 @@ import Hero from "../../components/Hero";
 
 const Home: NextPage = () => {
 	return (
-		<div className='gradient-01 h-screen text-gray-400 snap-y snap-madatory overflow-scroll z-0'>
+		<div className='gradient-01 h-screen text-gray-400 snap-y snap-madatory overflow-hidden z-0'>
 			<Head>
 				<title>E.i | frontend developer</title>
 			</Head>
