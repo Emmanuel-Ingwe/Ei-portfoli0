@@ -6,7 +6,7 @@ import Hero from "../../components/Hero";
 
 const Home: NextPage = () => {
 	return (
-		<div className='gradient-01 h-screen'>
+		<div className='gradient-01 h-screen text-gray-400'>
 			<Head>
 				<title>E.i | frontend developer</title>
 			</Head>
