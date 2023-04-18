@@ -12,7 +12,7 @@ function Hero({}: Props) {
 			"<ButLovesToCodeMore/>",
 		],
 		loop: true,
-		delaySpeed: 1500,
+		delaySpeed: 1400,
 	});
 
 	return (
