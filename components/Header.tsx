@@ -15,7 +15,7 @@ export default function Header({}: Props) {
 				<img src='/logo.png' alt='' width='100px' className='rounded-full' />
 			</div>
 
-			<nav className='mt-20 bg-gray-800 border-emerald-950 p-12'>
+			<nav className='mt-20 bg-gray-800 border-emerald-950 p-10'>
 				<div className='flex'>
 					<ul className='flex w-full justify-between text-3xl font-semi-bold text-gray-400'>
 						<li className='pl-28'>

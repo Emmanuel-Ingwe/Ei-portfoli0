@@ -6,19 +6,20 @@ type Props = {};
 
 function Hero({}: Props) {
 	const [text, count] = useTypewriter({
-		words: [
-			"Hi, The Name's Emmanuel Ingwe",
-			"They're a lot of hubbies",
-			"<ButLovesToCodeMore/>",
-		],
+		words: ["Hi there", "hey,", ""],
 		loop: true,
 		delaySpeed: 1400,
 	});
 
 	return (
-		<div className='h-100 flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
+		<div className='h-100 flex flex-col space-y- items-center justify-center text-center overflow-hidden'>
 			<BackgroundCircles />
-			<img src='' alt='' />
+			<img
+				src='dp.jpg'
+				alt=''
+				width='150px'
+				className='absolute rounded-full mt-16'
+			/>
 			<h1>
 				<span>{text}</span>
 				<Cursor cursorColor='indigo' />
