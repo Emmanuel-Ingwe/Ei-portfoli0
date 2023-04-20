@@ -6,7 +6,7 @@ type Props = {};
 
 function Hero({}: Props) {
 	const [text, count] = useTypewriter({
-		words: ["Hi there", "hey,", ""],
+		words: ["hi", "I am Emmanuel Ingwe", ""],
 		loop: true,
 		delaySpeed: 1400,
 	});
@@ -20,6 +20,9 @@ function Hero({}: Props) {
 				width='120px'
 				className='absolute rounded-full mt-16'
 			/>
+			<h2 className='absolute uppercase text-gray-700 bottom-32 tracking-[8px] text-sm'>
+				Software Engineer
+			</h2>
 			<h1>
 				<span>{text}</span>
 				<Cursor cursorColor='indigo' />
