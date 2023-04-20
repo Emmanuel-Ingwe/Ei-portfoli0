@@ -17,7 +17,7 @@ function Hero({}: Props) {
 			<img
 				src='dp.jpg'
 				alt=''
-				width='150px'
+				width='120px'
 				className='absolute rounded-full mt-16'
 			/>
 			<h1>
