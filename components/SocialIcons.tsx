@@ -21,11 +21,11 @@ function SocialIcons() {
 			icon: <FiLinkedin />,
 			link: "https://www.linkedin.com/in/emmanuel-ingwe-836961216/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BsdP5gaZuTFG7Q6zuH6ykqA%3D%3D",
 		},
-		{
-			name: "Instagram",
-			icon: <FiInstagram />,
-			link: "https://instagram.com/koolkishansheth",
-		},
+		// {
+		// 	name: "Instagram",
+		// 	icon: <FiInstagram />,
+		// 	link: "https://instagram.com/",
+		// },
 		{
 			name: "Twitter",
 			icon: <FiTwitter />,
