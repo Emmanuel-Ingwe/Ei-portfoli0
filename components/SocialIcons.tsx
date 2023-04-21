@@ -34,7 +34,7 @@ function SocialIcons() {
 	];
 	return (
 		<motion.div
-			className='social-icons'
+			className='fixed bottom-0 left-20 '
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{
@@ -42,13 +42,10 @@ function SocialIcons() {
 				ease: "easeInOut",
 				delay: 1.95,
 			}}>
-			<ul className='social-icons-list'>
+			<ul className='flex flex-col gap-5 pb- ul'>
 				{socialLinks.map(({ name, icon, link }) => (
-					<li key={name} title={name} className='social-icons-list-item'>
-						<Link
-							href={link}
-							className='social-icons-list-item-link'
-							target='_blank'>
+					<li key={name} title={name} className='hover:animate-bounce'>
+						<Link href={link} className='' target='_blank'>
 							{icon}
 						</Link>
 					</li>

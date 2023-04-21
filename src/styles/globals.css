@@ -18,6 +18,15 @@
 	); */
 }
 
+.ul::after {
+	content: "";
+	display: block;
+	width: 2px;
+	height: 90px;
+	background-color: rgb(105, 104, 104);
+	margin: 0 auto;
+}
+
 .gradient-01 {
 	background-image: linear-gradient(
 		270deg,
