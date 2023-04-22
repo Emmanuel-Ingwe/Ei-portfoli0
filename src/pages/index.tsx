@@ -4,6 +4,7 @@ import React from "react";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import SocialIcons from "../../components/SocialIcons";
+import Mailto from "../../components/Mailto";
 
 const Home: NextPage = () => {
 	return (
@@ -18,6 +19,8 @@ const Home: NextPage = () => {
 				<Hero />
 			</section>
 			<SocialIcons />
+
+			<Mailto />
 		</div>
 	);
 };
