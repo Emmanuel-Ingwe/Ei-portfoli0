@@ -30,7 +30,9 @@ export default function Header({}: Props) {
 							<Link href='/'>Blog</Link>
 						</li>
 						<li className='pr-28'>
-							Contact <small className='text-sm'>me</small>
+							<Link href='/'>
+								Contact <small className='text-sm'>me</small>
+							</Link>
 						</li>
 					</ul>
 				</div>
