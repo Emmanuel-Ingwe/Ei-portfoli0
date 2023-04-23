@@ -19,10 +19,16 @@ export default function Header({}: Props) {
 				<div className='flex'>
 					<ul className='flex w-full justify-between text-3xl font-semi-bold text-gray-400'>
 						<li className='pl-28'>
-							About <small className='text-sm font-extralight'>me</small>
+							<Link href='/'>
+								About <small className='text-sm font-extralight'>me</small>
+							</Link>
 						</li>
-						<li className=''>Projects</li>
-						<li className=''>Blog</li>
+						<li className=''>
+							<Link href='/'>Projects</Link>
+						</li>
+						<li className=''>
+							<Link href='/'>Blog</Link>
+						</li>
 						<li className='pr-28'>
 							Contact <small className='text-sm'>me</small>
 						</li>
