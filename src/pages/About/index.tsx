@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { once } from "events";
 
 type Props = {};
 
@@ -14,6 +15,9 @@ function index({}: Props) {
 				initial={{
 					x: -200,
 				}}
+				whileInView={{ x: 0 }}
+				viewport={{ once: true }}
+				src='about-img.jpg'
 			/>
 		</div>
 	);
