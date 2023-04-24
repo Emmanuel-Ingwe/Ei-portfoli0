@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -9,7 +10,11 @@ function index({}: Props) {
 				About
 			</h3>
 
-			<MotionConfig.img />
+			<motion.img
+				initial={{
+					x: -200,
+				}}
+			/>
 		</div>
 	);
 }
