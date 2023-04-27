@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import React from "react";
-import Header from "../../components/Header";
+import Header from "./Header";
 import Hero from "../../components/Hero";
 import SocialIcons from "../../components/SocialIcons";
 import Mailto from "../../components/Mailto";
