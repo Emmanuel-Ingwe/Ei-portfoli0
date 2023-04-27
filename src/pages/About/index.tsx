@@ -1,11 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 type Props = {};
 
 function index({}: Props) {
 	return (
 		<div className='gradient-01'>
+			<Head>
+				<title>E.i | About me</title>
+			</Head>
 			{/* <Header /> */}
 
 			<div className='overflow-hidden flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
