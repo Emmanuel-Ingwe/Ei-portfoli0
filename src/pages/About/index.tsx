@@ -23,6 +23,7 @@ function index({}: Props) {
 					whileInView={{ x: 0 }}
 					viewport={{ once: true }}
 					src='about-img.jpg'
+					width='300px'
 				/>
 			</div>
 		</div>
