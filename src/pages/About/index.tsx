@@ -7,7 +7,7 @@ type Props = {};
 
 function index({}: Props) {
 	return (
-		<div className='gradient-01 h-[1000px]'>
+		<div className='gradient-01 h-[1400px]'>
 			<Head>
 				<title>E.i | About me</title>
 			</Head>
