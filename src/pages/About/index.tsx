@@ -17,6 +17,9 @@ function index({}: Props) {
 					initial={{
 						x: -200,
 					}}
+					transition={{
+						duration: 1.2,
+					}}
 					whileInView={{ x: 0 }}
 					viewport={{ once: true }}
 					src='about-img.jpg'
