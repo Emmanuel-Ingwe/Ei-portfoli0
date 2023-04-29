@@ -7,7 +7,7 @@ type Props = {};
 
 function index({}: Props) {
 	return (
-		<div className='gradient-01 h-[1400px]'>
+		<div className='gradient-01 h-[1000px]'>
 			<Head>
 				<title>E.i | About me</title>
 			</Head>
@@ -30,7 +30,7 @@ function index({}: Props) {
 					viewport={{ once: true }}
 					src='about-img.jpg'
 					width='380px'
-					className='flex absolute left-2 top-40'
+					className='flex absolute left-2 top-40 -mb-20 md:mb-0 flex-shrink-0 object-cover md:rounded-lg sm:w-56 sm:h-56 xl:w-[398px] xl:h-[490px]'
 				/>
 			</div>
 		</div>
