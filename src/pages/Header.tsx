@@ -10,15 +10,17 @@ type img = { string: any };
 
 export default function Header({}: Props) {
 	return (
-		<header className='top-5 items-center justify-between'>
+		<header className='top-5 items-center'>
 			<div className='flex items-center justify-center relative top-28'>
-				<img src='/logo.png' alt='' width='100px' className='rounded-full' />
+				<Link href='/'>
+					<img src='/logo.png' alt='' width='100px' className='rounded-full' />
+				</Link>
 			</div>
 
 			<nav className='mt-20 bg-gray-800 border-emerald-950 p-10'>
 				<div className='flex'>
-					<ul className='flex w-full justify-between text-3xl font-semi-bold text-gray-400'>
-						<li className='pl-28'>
+					<ul className='flex w-ful justify-between text-1xl font-semi-bold text-gray-400'>
+						<li className=''>
 							<Link href='/About'>
 								About <small className='text-sm font-extralight'>me</small>
 							</Link>
@@ -29,7 +31,7 @@ export default function Header({}: Props) {
 						<li className=''>
 							<Link href='/'>Blog</Link>
 						</li>
-						<li className='pr-28'>
+						<li className=''>
 							<Link href='/contact'>
 								Contact <small className='text-sm'>me</small>
 							</Link>
