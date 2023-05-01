@@ -19,7 +19,7 @@ export default function Header({}: Props) {
 
 			<nav className='mt-20 bg-gray-800 border-emerald-950 p-10'>
 				<div className='flex'>
-					<ul className='flex flex-wrap w-full items-center justify-between text-1xl font-semi-bold text-gray-400'>
+					<ul className='flex flex-wrap w-full items-center justify-around text-1xl font-semi-bold text-gray-400 sm:text-2xl md:font-bold'>
 						<li className=''>
 							<Link href='/About'>
 								About <small className='text-sm font-extralight'>me</small>
@@ -33,7 +33,7 @@ export default function Header({}: Props) {
 						</li>
 						<li className=''>
 							<Link href='/contact'>
-								Contact <small className='text-sm'>me</small>
+								Contact <small className='text-sm font-extralight'>me</small>
 							</Link>
 						</li>
 					</ul>
