@@ -15,7 +15,7 @@ function Mailto() {
 	];
 	return (
 		<motion.div
-			className='fixed bottom right-20 '
+			className='fixed bottom-0 right-20 '
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{
