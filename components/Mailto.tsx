@@ -15,7 +15,7 @@ function Mailto() {
 	];
 	return (
 		<motion.div
-			className='fixed top-0 right-5 md:bottom-0 md:right-24 xl:bottom-0 xl:right-24 sm:bottom-0 sm:right-24'
+			className='fixed top-0 right-5 md:bottom-0 md:right-24 xl:bottom-0 xl:right-24 sm:bottom-0 sm:right-16 sm:translate-y-3/4'
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{
@@ -23,9 +23,12 @@ function Mailto() {
 				ease: "easeInOut",
 				delay: 1.95,
 			}}>
-			<ul className='flex flex-col sm:after:hidden gap-5 ul'>
+			<ul className='flex flex-col gap-5'>
 				{socialLinks.map(({ name, icon, link }) => (
-					<li key={name} title={name} className='hover:animate-bounce'>
+					<li
+						key={name}
+						title={name}
+						className='hover:animate-pulse animate-ping'>
 						<Link href={link} className='' target='_blank'>
 							{icon}
 						</Link>
