@@ -8,14 +8,14 @@ type Props = {};
 function Mailto() {
 	const socialLinks = [
 		{
-			name: "Gmail",
+			name: "send Email",
 			icon: <FiMail />,
 			link: "mailto:ingwemmanuel@gmail.com",
 		},
 	];
 	return (
 		<motion.div
-			className='fixed top-0 right-5 md:bottom-0 md:right-24 xl:bottom-0 xl:right-24 sm:bottom-0 sm:right-16 sm:translate-y-3/4'
+			className='fixed top-7 right-7 md:bottom-0 md:right-24 xl:bottom-0 xl:right-24 sm:bottom-0 sm:right-16 sm:translate-y-3/4'
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{
