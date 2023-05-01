@@ -34,7 +34,7 @@ function SocialIcons() {
 	];
 	return (
 		<motion.div
-			className='fixed bottom-0 left-20 '
+			className='fixed bottom-0 left-5 md:left-16 xl:left-24'
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{
