@@ -19,7 +19,7 @@ export default function Header({}: Props) {
 
 			<nav className='mt-20 bg-gray-800 border-emerald-950 p-10'>
 				<div className='flex'>
-					<ul className='flex w-full items-center justify-between text-1xl font-semi-bold text-gray-400'>
+					<ul className='flex flex-wrap w-full items-center justify-between text-1xl font-semi-bold text-gray-400'>
 						<li className=''>
 							<Link href='/About'>
 								About <small className='text-sm font-extralight'>me</small>
