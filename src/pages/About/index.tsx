@@ -7,7 +7,7 @@ type Props = {};
 
 function index({}: Props) {
 	return (
-		<div className='gradient-01 h-[1200px] w-full overflow-hidden'>
+		<div className='gradient-01 h-[1000px] w-full overflow-hidden'>
 			<Head>
 				<title>E.i | About me</title>
 			</Head>
@@ -29,9 +29,9 @@ function index({}: Props) {
 					viewport={{ once: true }}
 					src='about-img.jpg'
 					// width='380px'
-					className='top-40 rounded-full -mb-32 w-60 h-60 md:mb-0 flex-shrink-0 object-cover md:w-[300px] md:h-96 xl:w-[400px] xl:h-[490px] xl:rounded-lg sm:w-[200px] sm:h-[200px] sm:rounded-full'
+					className='top-40 rounded-full -mb-32 w-60 h-60 md:mb-0 flex-shrink-0 object-cover md:w-[300px] md:h-96 xl:w-[340px] xl:h-[440px] xl:rounded-2xl sm:w-[200px] sm:h-[200px]'
 				/>
-				<div className='space-y-10 px-0 md:px-10 pt-14'>
+				<div className='space-y-10 px-0 md:px-10 pt-20'>
 					<h4 className='text-3xl font text-red-900 sm:text-4xl'>
 						A little info about{" "}
 						<span className='underline decoration-slate-800'>me</span> {""}{" "}
@@ -45,9 +45,9 @@ function index({}: Props) {
 						}}
 						whileInView={{ y: 0 }}
 						viewport={{ once: true }}
-						className='text-sm text-gray-500'>
-						I'm a Frontend Developer, I am passionate about using codes to
-						create helpful projects and solving problems, I like being
+						className='text-base text-gray-500'>
+						I'm Emmanuel, a Frontend Developer, I am passionate about using
+						codes to create helpful projects and solving problems, I like being
 						productive with my time. I build good and swift web applications
 						that help individuals, businesses & brands satisfy their customers
 						and compete globally. I’ve always been obsessed with technology and
