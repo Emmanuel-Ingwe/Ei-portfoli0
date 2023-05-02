@@ -29,13 +29,31 @@ function index({}: Props) {
 					viewport={{ once: true }}
 					src='about-img.jpg'
 					// width='380px'
-					className='top-40 rounded-full -mb-20 w-60 h-60 md:mb-0 flex-shrink-0 object-cover md:w-[300px] md:h-96 xl:w-[400px] xl:h-[490px] xl:rounded-lg sm:w-[200px] sm:h-[200px] sm:rounded-full'
+					className='top-40 rounded-full -mb-32 w-60 h-60 md:mb-0 flex-shrink-0 object-cover md:w-[300px] md:h-96 xl:w-[400px] xl:h-[490px] xl:rounded-lg sm:w-[200px] sm:h-[200px] sm:rounded-full'
 				/>
-				<div className='space-y-10 px-0 md:px-10'>
-					<h4 className='text-4xl font-semibold  text-gray-300 sm:text-2l'>
-						{" "}
-						A little info about me
+				<div className='space-y-10 px-0 md:px-10 pt-14'>
+					<h4 className='text-3xl font text-red-900 sm:text-4xl'>
+						A little info about{" "}
+						<span className='underline decoration-slate-800'>me</span> {""}{" "}
 					</h4>
+					<motion.p
+						initial={{
+							y: 200,
+						}}
+						transition={{
+							duration: 1.4,
+						}}
+						whileInView={{ y: 0 }}
+						viewport={{ once: true }}
+						className='text-sm text-gray-500'>
+						I'm a Frontend Developer, I am passionate about using codes to
+						create helpful projects and solving problems, I like being
+						productive with my time. I build good and swift web applications
+						that help individuals, businesses & brands satisfy their customers
+						and compete globally. I’ve always been obsessed with technology and
+						I plan on working with more advanced & modernised technologies in
+						future.
+					</motion.p>
 				</div>
 			</div>
 		</div>
