@@ -9,9 +9,6 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    screens: {
-      'xs': '400px',
-    },
     extend: {},
     container: {
       center: true,

@@ -18,9 +18,6 @@ const Home: NextPage = () => {
 			<section id='hero' className='snap-center'>
 				<Hero />
 			</section>
-			<SocialIcons />
-
-			<Mailto />
 		</div>
 	);
 };

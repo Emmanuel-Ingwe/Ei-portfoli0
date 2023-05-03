@@ -6,14 +6,14 @@ type Props = {};
 
 function index({}: Props) {
 	return (
-		<div className='gradient-01 h-screen text-gray-400 snap-y snap-madatory overflow-hidden z-0'>
+		<div className='gradient-01 h-full w-full text-gray-400 snap-y snap-madatory overflow-hidden z-0'>
 			<Head>
 				<title>E.i | my Projects</title>
 			</Head>
 
 			<Header />
 
-			<div className=''>
+			<div className='container'>
 				<h3 className=''>Experience</h3>
 			</div>
 		</div>

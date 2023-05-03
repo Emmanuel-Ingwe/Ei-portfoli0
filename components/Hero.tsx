@@ -1,6 +1,8 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
+import SocialIcons from "../components/SocialIcons";
+import Mailto from "../components/Mailto";
 
 type Props = {};
 
@@ -12,7 +14,7 @@ function Hero({}: Props) {
 	});
 
 	return (
-		<div className='h-100 flex flex-col space-y- items-center justify-center text-center overflow-hidden'>
+		<div className='container h-full flex flex-col space-y- items-center justify-center text-center overflow-hidden'>
 			<BackgroundCircles />
 			<img
 				src='dp.jpg'
@@ -27,6 +29,10 @@ function Hero({}: Props) {
 				<span>{text}</span>
 				<Cursor cursorColor='indigo' />
 			</h1>
+
+			<SocialIcons />
+
+			<Mailto />
 		</div>
 	);
 }

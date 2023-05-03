@@ -7,14 +7,14 @@ type Props = {};
 
 function index({}: Props) {
 	return (
-		<div className='gradient-01 h-[1000px] w-full overflow-hidden'>
+		<div className='gradient-01 h-full w-full overflow-hidden'>
 			<Head>
 				<title>E.i | About me</title>
 			</Head>
 
 			<Header />
 
-			<div className='overflow-hidden flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+			<div className='container overflow-hidden flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
 				<h3 className='absolute top-10 uppercase tracking-[20px] text-gray-500 text-2xl'>
 					About
 				</h3>
