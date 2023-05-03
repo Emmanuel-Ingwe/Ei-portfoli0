@@ -23,7 +23,7 @@ function index({}: Props) {
 						x: -200,
 					}}
 					transition={{
-						duration: 1.2,
+						duration: 0.7,
 					}}
 					whileInView={{ x: 0 }}
 					viewport={{ once: true }}
@@ -41,7 +41,7 @@ function index({}: Props) {
 							y: 200,
 						}}
 						transition={{
-							duration: 1.4,
+							duration: 0.5,
 						}}
 						whileInView={{ y: 0 }}
 						viewport={{ once: true }}
