@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Header from "../Header";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -14,12 +15,21 @@ function index({}: Props) {
 			<Header />
 
 			<div className='container flex flex-col items-center justify-center'>
-				<h3 className='uppercase tracking-[20px] text-gray-500 text-2xl'>
+				<h3 className='uppercase tracking-[20px] text-gray-500 text-2xl mt-7'>
 					Projects
 				</h3>
 
 				<article>
-					<img
+					<motion.img
+						initial={{
+							y: -100,
+							opacity: 0,
+						}}
+						transition={{
+							duration: 1.2,
+						}}
+						whileInView={{ opacity: 1, y: 0 }}
+						viewport={{ once: true }}
 						src='disney-big.jpg'
 						alt=''
 						className='w-32 h-32 rounded-lg xl:w-[200px] object-cover object-center'
