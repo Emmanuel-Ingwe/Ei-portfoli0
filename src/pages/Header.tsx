@@ -20,20 +20,26 @@ export default function Header({}: Props) {
 			<nav className='mt-20 bg-gray-800 border-emerald-950 p-10'>
 				<div className='flex'>
 					<ul className='flex flex-wrap w-full items-center justify-around text-1xl font-semi-bold text-gray-400 sm:text-2xl md:font-bold'>
-						<li className=''>
+						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-[1s]'>
 							<Link href='/About'>
 								About <small className='text-sm font-extralight'>me</small>
 							</Link>
 						</li>
-						<li className=''>
+						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-[1s]'>
 							<Link href='/projects'>Projects</Link>
 						</li>
-						<li className=''>
+						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-[1s]'>
 							<Link href='/'>Blog</Link>
 						</li>
-						<li className=''>
+						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-[1s]'>
 							<Link href='/contact'>
 								Contact <small className='text-sm font-extralight'>me</small>
+							</Link>
+						</li>
+						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-[1s]'>
+							<Link href='/contact'>
+								<span className='hover:text-red-800 font-extralight'>/</span>{" "}
+								Stacks
 							</Link>
 						</li>
 					</ul>

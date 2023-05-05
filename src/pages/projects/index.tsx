@@ -54,7 +54,7 @@ function index({}: Props) {
 						}}
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
-						src='disney-big.jpg'
+						src='hulu-big.jpg'
 						alt=''
 						className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center items-center justify-center'
 					/>
