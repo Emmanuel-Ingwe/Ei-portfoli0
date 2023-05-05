@@ -33,7 +33,7 @@ function index({}: Props) {
 							viewport={{ once: true }}
 							src='disney-big.jpg'
 							alt=''
-							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center'
+							className='h-52 w-64 md:w-96 xl:w-3/5 rounded-2xl object-cover object-center'
 						/>
 
 						<div className='px-0 md:px-10'>
@@ -57,7 +57,7 @@ function index({}: Props) {
 							viewport={{ once: true }}
 							src='hulu-big.jpg'
 							alt=''
-							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center items-center justify-center'
+							className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center items-center justify-center'
 						/>
 
 						<div className='px-0 md:px-10'>
@@ -81,7 +81,7 @@ function index({}: Props) {
 							viewport={{ once: true }}
 							src='disney-big.jpg'
 							alt=''
-							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center'
+							className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center'
 						/>
 
 						<div className='px-0 md:px-10'>
@@ -105,7 +105,7 @@ function index({}: Props) {
 							viewport={{ once: true }}
 							src='disney-big.jpg'
 							alt=''
-							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center '
+							className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center '
 						/>
 
 						<div className='px-0 md:px-10'>
@@ -129,7 +129,7 @@ function index({}: Props) {
 							viewport={{ once: true }}
 							src='disney-big.jpg'
 							alt=''
-							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center items-center justify-center'
+							className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center items-center justify-center'
 						/>
 
 						<div className='px-0 md:px-10'>
@@ -153,7 +153,7 @@ function index({}: Props) {
 							viewport={{ once: true }}
 							src='disney-big.jpg'
 							alt=''
-							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center'
+							className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center'
 						/>
 
 						<div className='px-0 md:px-10'>
