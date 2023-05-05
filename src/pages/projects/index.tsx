@@ -37,8 +37,8 @@ function index({}: Props) {
 						/>
 
 						<div className='px-0 md:px-10'>
-							<h4 className='text-4xl font-light'>Disney Clone</h4>
-							<p className='font-bold text-2xl mt-1'>
+							<h4 className='text-3xl font-light'>Disney Clone</h4>
+							<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Quibusdam, qui.
 							</p>
@@ -61,8 +61,8 @@ function index({}: Props) {
 						/>
 
 						<div className='px-0 md:px-10'>
-							<h4 className='text-4xl font-light'>Disney Clone</h4>
-							<p className='font-bold text-2xl mt-1'>
+							<h4 className='text-3xl font-light'>Disney Clone</h4>
+							<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Quibusdam, qui.
 							</p>
@@ -85,8 +85,8 @@ function index({}: Props) {
 						/>
 
 						<div className='px-0 md:px-10'>
-							<h4 className='text-4xl font-light'>Disney Clone</h4>
-							<p className='font-bold text-2xl mt-1'>
+							<h4 className='text-3xl font-light'>Disney Clone</h4>
+							<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Quibusdam, qui.
 							</p>
@@ -109,8 +109,8 @@ function index({}: Props) {
 						/>
 
 						<div className='px-0 md:px-10'>
-							<h4 className='text-4xl font-light'>Disney Clone</h4>
-							<p className='font-bold text-2xl mt-1'>
+							<h4 className='text-3xl font-light'>Disney Clone</h4>
+							<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Quibusdam, qui.
 							</p>
@@ -133,8 +133,8 @@ function index({}: Props) {
 						/>
 
 						<div className='px-0 md:px-10'>
-							<h4 className='text-4xl font-light'>Disney Clone</h4>
-							<p className='font-bold text-2xl mt-1'>
+							<h4 className='text-3xl font-light'>Disney Clone</h4>
+							<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Quibusdam, qui.
 							</p>
@@ -157,8 +157,8 @@ function index({}: Props) {
 						/>
 
 						<div className='px-0 md:px-10'>
-							<h4 className='text-4xl font-light'>Disney Clone</h4>
-							<p className='font-bold text-2xl mt-1'>
+							<h4 className='text-3xl font-light'>Disney Clone</h4>
+							<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Quibusdam, qui.
 							</p>
