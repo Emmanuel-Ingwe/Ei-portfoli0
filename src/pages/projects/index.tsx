@@ -19,150 +19,152 @@ function index({}: Props) {
 					Projects
 				</h3>
 
-				<article className='flex flex-col items-center justify-center'>
-					<motion.img
-						initial={{
-							y: -100,
-							opacity: 0,
-						}}
-						transition={{
-							duration: 1.2,
-						}}
-						whileInView={{ opacity: 1, y: 0 }}
-						viewport={{ once: true }}
-						src='disney-big.jpg'
-						alt=''
-						className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center'
-					/>
+				<div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory'>
+					<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335]'>
+						<motion.img
+							initial={{
+								y: -100,
+								opacity: 0,
+							}}
+							transition={{
+								duration: 1.2,
+							}}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							src='disney-big.jpg'
+							alt=''
+							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center'
+						/>
 
-					<div className=''>
-						<h4>Disney Clone</h4>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Quibusdam, qui.
-						</p>
-					</div>
-				</article>
-				<article className='flex flex-col items-center justify-center'>
-					<motion.img
-						initial={{
-							y: -100,
-							opacity: 0,
-						}}
-						transition={{
-							duration: 1.2,
-						}}
-						whileInView={{ opacity: 1, y: 0 }}
-						viewport={{ once: true }}
-						src='hulu-big.jpg'
-						alt=''
-						className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center items-center justify-center'
-					/>
+						<div className='px-0 md:px-10'>
+							<h4 className='text-4xl font-light'>Disney Clone</h4>
+							<p className='font-bold text-2xl mt-1'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Quibusdam, qui.
+							</p>
+						</div>
+					</article>
+					<article className='flex flex-col items-center justify-center  space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335]'>
+						<motion.img
+							initial={{
+								y: -100,
+								opacity: 0,
+							}}
+							transition={{
+								duration: 1.2,
+							}}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							src='hulu-big.jpg'
+							alt=''
+							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center items-center justify-center'
+						/>
 
-					<div className=''>
-						<h4>Disney Clone</h4>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Quibusdam, qui.
-						</p>
-					</div>
-				</article>
-				<article className='flex flex-col items-center justify-center'>
-					<motion.img
-						initial={{
-							y: -100,
-							opacity: 0,
-						}}
-						transition={{
-							duration: 1.2,
-						}}
-						whileInView={{ opacity: 1, y: 0 }}
-						viewport={{ once: true }}
-						src='disney-big.jpg'
-						alt=''
-						className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center'
-					/>
+						<div className='px-0 md:px-10'>
+							<h4 className='text-4xl font-light'>Disney Clone</h4>
+							<p className='font-bold text-2xl mt-1'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Quibusdam, qui.
+							</p>
+						</div>
+					</article>
+					<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px]  snap-center bg-[#161335]'>
+						<motion.img
+							initial={{
+								y: -100,
+								opacity: 0,
+							}}
+							transition={{
+								duration: 1.2,
+							}}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							src='disney-big.jpg'
+							alt=''
+							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center'
+						/>
 
-					<div className=''>
-						<h4>Disney Clone</h4>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Quibusdam, qui.
-						</p>
-					</div>
-				</article>
-				<article className='flex flex-col items-center justify-center'>
-					<motion.img
-						initial={{
-							y: -100,
-							opacity: 0,
-						}}
-						transition={{
-							duration: 1.2,
-						}}
-						whileInView={{ opacity: 1, y: 0 }}
-						viewport={{ once: true }}
-						src='disney-big.jpg'
-						alt=''
-						className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center '
-					/>
+						<div className='px-0 md:px-10'>
+							<h4 className='text-4xl font-light'>Disney Clone</h4>
+							<p className='font-bold text-2xl mt-1'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Quibusdam, qui.
+							</p>
+						</div>
+					</article>
+					<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335]'>
+						<motion.img
+							initial={{
+								y: -100,
+								opacity: 0,
+							}}
+							transition={{
+								duration: 1.2,
+							}}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							src='disney-big.jpg'
+							alt=''
+							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center '
+						/>
 
-					<div className=''>
-						<h4>Disney Clone</h4>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Quibusdam, qui.
-						</p>
-					</div>
-				</article>
-				<article className='flex flex-col items-center justify-center'>
-					<motion.img
-						initial={{
-							y: -100,
-							opacity: 0,
-						}}
-						transition={{
-							duration: 1.2,
-						}}
-						whileInView={{ opacity: 1, y: 0 }}
-						viewport={{ once: true }}
-						src='disney-big.jpg'
-						alt=''
-						className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center items-center justify-center'
-					/>
+						<div className='px-0 md:px-10'>
+							<h4 className='text-4xl font-light'>Disney Clone</h4>
+							<p className='font-bold text-2xl mt-1'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Quibusdam, qui.
+							</p>
+						</div>
+					</article>
+					<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335]'>
+						<motion.img
+							initial={{
+								y: -100,
+								opacity: 0,
+							}}
+							transition={{
+								duration: 1.2,
+							}}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							src='disney-big.jpg'
+							alt=''
+							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center items-center justify-center'
+						/>
 
-					<div className=''>
-						<h4>Disney Clone</h4>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Quibusdam, qui.
-						</p>
-					</div>
-				</article>
-				<article className='flex flex-col items-center justify-center'>
-					<motion.img
-						initial={{
-							y: -100,
-							opacity: 0,
-						}}
-						transition={{
-							duration: 1.2,
-						}}
-						whileInView={{ opacity: 1, y: 0 }}
-						viewport={{ once: true }}
-						src='disney-big.jpg'
-						alt=''
-						className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center'
-					/>
+						<div className='px-0 md:px-10'>
+							<h4 className='text-4xl font-light'>Disney Clone</h4>
+							<p className='font-bold text-2xl mt-1'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Quibusdam, qui.
+							</p>
+						</div>
+					</article>
+					<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335]'>
+						<motion.img
+							initial={{
+								y: -100,
+								opacity: 0,
+							}}
+							transition={{
+								duration: 1.2,
+							}}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							src='disney-big.jpg'
+							alt=''
+							className='h-52 w-64 rounded-2xl xl:w-[200px] object-cover object-center'
+						/>
 
-					<div className=''>
-						<h4>Disney Clone</h4>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Quibusdam, qui.
-						</p>
-					</div>
-				</article>
+						<div className='px-0 md:px-10'>
+							<h4 className='text-4xl font-light'>Disney Clone</h4>
+							<p className='font-bold text-2xl mt-1'>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Quibusdam, qui.
+							</p>
+						</div>
+					</article>
+				</div>
 			</div>
 		</div>
 	);
