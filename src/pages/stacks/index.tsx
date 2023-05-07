@@ -44,7 +44,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -59,7 +59,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -74,7 +74,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -89,7 +89,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -104,7 +104,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -119,7 +119,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -134,7 +134,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -149,7 +149,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -164,7 +164,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -179,7 +179,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -194,7 +194,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter transition duration-300 ease-in-out group-hover:grayscale'
 						/>
 					</div>
 					<div className='group relative flex cursor-pointer'>
@@ -209,7 +209,7 @@ function stacks({ directionLeft }: Props) {
 							whileInView={{ opacity: 1, x: 0 }}
 							src='tailwind.jpg'
 							alt=''
-							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale'
+							className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 						/>
 					</div>
 				</div>
