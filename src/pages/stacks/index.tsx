@@ -9,7 +9,7 @@ type Props = {
 
 function stacks({ directionLeft }: Props) {
 	return (
-		<div className='gradient-01 h-screen w-full text-gray-400 snap-y snap-madatory overflow-hidden z-0'>
+		<div className='gradient-01 h-screen w-full text-gray-400 snap-y snap-madatory overflow-x-hidden z-0'>
 			<Head>
 				<title>E.i | my Projects</title>
 			</Head>
@@ -31,7 +31,7 @@ function stacks({ directionLeft }: Props) {
 					Skills
 				</motion.h3>
 
-				<div className='grid grid-cols-6 gap-5 items-center justify-center '>
+				<div className='grid grid-cols-2 gap-7 sm:grid-cols-4 xl:grid-cols-6 items-center justify-center '>
 					<div className='group relative flex cursor-pointer'>
 						<motion.img
 							initial={{
