@@ -29,7 +29,7 @@ function index({}: Props) {
 					viewport={{ once: true }}
 					src='about-img.jpg'
 					// width='380px'
-					className='top-40 rounded-full -mb-32 w-60 h-60 md:mb-0 flex-shrink-0 object-cover md:w-[300px] md:h-96 xl:w-[340px] xl:h-[440px] xl:rounded-2xl sm:w-[200px] sm:h-[200px]'
+					className='top-40 rounded-[20%] -mb-32 w-60 h-64 md:mb-0 flex-shrink-0 object-cover md:w-[300px] md:h-96 xl:w-[340px] xl:h-[440px] xl:rounded-2xl sm:w-[200px] sm:h-[200px]'
 				/>
 				<div className='space-y-10 px-0 md:px-10 pt-20'>
 					<h4 className='text-3xl font text-red-900 sm:text-4xl'>
