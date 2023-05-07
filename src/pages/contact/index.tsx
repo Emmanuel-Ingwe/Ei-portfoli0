@@ -1,16 +1,24 @@
 import React from "react";
 import Head from "next/head";
+import Header from "../Header";
+import { motion } from "framer-motion";
 
-type Props = {};
+type Props = {
+	directionLeft?: boolean;
+};
 
-function index({}: Props) {
+function contact({ directionLeft }: Props) {
 	return (
-		<div>
+		<div className='gradient-01 h-screen w-full text-gray-400 snap-y snap-madatory overflow-x-hidden z-0'>
 			<Head>
-				<title>E.i | Contact me</title>
+				<title>E.i | my Projects</title>
 			</Head>
+
+			<Header />
+
+			<div className='container flex flex-col items-center justify-center'></div>
 		</div>
 	);
 }
 
-export default index;
+export default contact;
