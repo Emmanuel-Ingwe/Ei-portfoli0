@@ -8,7 +8,7 @@ import Mailto from "../../components/Mailto";
 
 const Home: NextPage = () => {
 	return (
-		<div className='gradient-01 h-screen text-gray-400 snap-y snap-madatory overflow-hidden z-0'>
+		<div className='gradient-01 h-screen text-gray-400 snap-y snap-madatory overflow-x-hidden overflow-y-scrool z-0'>
 			<Head>
 				<title>E.i | Frontend Developer</title>
 			</Head>
