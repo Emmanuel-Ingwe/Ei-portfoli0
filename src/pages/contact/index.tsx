@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "../Header";
 import { motion } from "framer-motion";
+import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 
 type Props = {
 	directionLeft?: boolean;
