@@ -22,7 +22,7 @@ export default function Header({}: Props) {
 					<ul className='flex flex-wrap w-full items-center justify-around text-1xl font-semi-bold text-gray-400 sm:text-2xl md:font-bold'>
 						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-all duration-500'>
 							<Link href='/About'>
-								About <small className='text-sm font-extralight'>me</small>
+								About <small className='font-extralight text-xs'>me</small>
 							</Link>
 						</li>
 						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-all duration-500 '>
@@ -33,7 +33,7 @@ export default function Header({}: Props) {
 						</li>
 						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-all duration-500'>
 							<Link href='/contact'>
-								Contact <small className='text-sm font-extralight'>me</small>
+								Contact <small className='text-xs font-extralight'>me</small>
 							</Link>
 						</li>
 						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-all duration-500'>
