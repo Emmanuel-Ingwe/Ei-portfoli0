@@ -44,9 +44,9 @@ function contact({ directionLeft }: Props) {
 					</div>
 
 					<form
-						className='flex flex-col space-y-2 w-fit mx-auto ml-12'
+						className='flex flex-col space-y-2 w-screen sm:w-fit p-3'
 						action=''>
-						<div className='flex space-x-2'>
+						<div className='flex flex-col sm:flex-row sm:space-x-2'>
 							<motion.input
 								initial={{
 									y: 300,
@@ -57,7 +57,7 @@ function contact({ directionLeft }: Props) {
 								whileInView={{ y: 0 }}
 								viewport={{ once: true }}
 								placeholder='Name'
-								className='contactInput'
+								className='contactInput mb-1'
 								type='text'
 							/>
 							<motion.input
@@ -70,7 +70,7 @@ function contact({ directionLeft }: Props) {
 								whileInView={{ y: 0 }}
 								viewport={{ once: false }}
 								placeholder='Email'
-								className='contactInput'
+								className='contactInput mb-1'
 								type='email'
 							/>
 						</div>
