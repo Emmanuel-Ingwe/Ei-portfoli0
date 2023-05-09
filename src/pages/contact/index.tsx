@@ -16,7 +16,9 @@ function contact({ directionLeft }: Props) {
 
 			<Header />
 
-			<div className='container flex flex-col items-center justify-center'></div>
+			<div className='container flex flex-col items-center justify-center'>
+				<h3 className='tracking-[20px] text-gray-500 text-2xl'>Contact</h3>
+			</div>
 		</div>
 	);
 }
