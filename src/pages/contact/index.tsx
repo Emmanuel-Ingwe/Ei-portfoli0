@@ -43,7 +43,9 @@ function contact({ directionLeft }: Props) {
 						</div>
 					</div>
 
-					<form className='flex flex-col space-y-2 w-fit mx-auto' action=''>
+					<form
+						className='flex flex-col space-y-2 w-fit mx-auto ml-12'
+						action=''>
 						<div className='flex space-x-2'>
 							<motion.input
 								initial={{
