@@ -123,3 +123,7 @@
 	background: #65c4fa;
 	filter: blur(150px);
 }
+
+.contactInput {
+	@apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-400 placeholder-gray-500 transition-all focus:border-red-900/70 focus:text-red-900/70 hover:border-red-900/70;
+}
