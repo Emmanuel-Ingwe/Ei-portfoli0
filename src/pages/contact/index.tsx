@@ -45,26 +45,75 @@ function contact({ directionLeft }: Props) {
 
 					<form className='flex flex-col space-y-2 w-fit mx-auto' action=''>
 						<div className='flex space-x-2'>
-							<input placeholder='Name' className='contactInput' type='text' />
-							<input
+							<motion.input
+								initial={{
+									y: 300,
+								}}
+								transition={{
+									duration: 0.5,
+								}}
+								whileInView={{ y: 0 }}
+								viewport={{ once: true }}
+								placeholder='Name'
+								className='contactInput'
+								type='text'
+							/>
+							<motion.input
+								initial={{
+									y: 300,
+								}}
+								transition={{
+									duration: 0.5,
+								}}
+								whileInView={{ y: 0 }}
+								viewport={{ once: false }}
 								placeholder='Email'
 								className='contactInput'
 								type='email'
 							/>
 						</div>
 
-						<input placeholder='Subject' className='contactInput' type='text' />
+						<motion.input
+							initial={{
+								y: 300,
+							}}
+							transition={{
+								duration: 0.8,
+							}}
+							whileInView={{ y: 0 }}
+							viewport={{ once: false }}
+							placeholder='Subject'
+							className='contactInput'
+							type='text'
+						/>
 
-						<textarea
+						<motion.textarea
+							initial={{
+								y: 240,
+							}}
+							transition={{
+								duration: 1,
+							}}
+							whileInView={{ y: 0 }}
+							viewport={{ once: false }}
 							placeholder='Message'
 							className='contactInput'
 							name=''
-							id=''></textarea>
-						<button
+							id=''></motion.textarea>
+
+						<motion.button
+							initial={{
+								x: 300,
+							}}
+							transition={{
+								duration: 1.5,
+							}}
+							whileInView={{ x: 0 }}
+							viewport={{ once: false }}
 							type='submit'
 							className='bg-red-950 py-5 px-10 rounded-md text-black font-bold text-lg'>
 							Submit
-						</button>
+						</motion.button>
 					</form>
 				</div>
 			</div>
