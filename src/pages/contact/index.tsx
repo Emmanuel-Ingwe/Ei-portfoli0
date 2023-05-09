@@ -105,7 +105,7 @@ function contact({ directionLeft }: Props) {
 
 						<motion.button
 							initial={{
-								x: 300,
+								x: 250,
 							}}
 							transition={{
 								duration: 1.5,
