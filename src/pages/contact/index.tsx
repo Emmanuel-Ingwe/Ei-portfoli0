@@ -16,8 +16,19 @@ function contact({ directionLeft }: Props) {
 
 			<Header />
 
-			<div className='container flex flex-col items-center justify-center'>
-				<h3 className='tracking-[20px] text-gray-500 text-2xl'>Contact</h3>
+			<div className='containr flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+				<h3 className='tracking-[20px] uppercase text-gray-500 text-2xl m-10'>
+					Contact
+				</h3>
+
+				<div className='flex flex-col space-y-10'>
+					<h4 className='text-2xl fontsemibold text-center'>
+						I got what you looking for.{""}{" "}
+						<span className='decoration-red-900 underline'>Let's talk</span>
+					</h4>
+
+					<div className=''></div>
+				</div>
 			</div>
 		</div>
 	);
