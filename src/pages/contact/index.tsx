@@ -3,12 +3,25 @@ import Head from "next/head";
 import Header from "../Header";
 import { motion } from "framer-motion";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { type } from "os";
+import { useForm, SubmitHandler } from "react-hook-form";
 
-type Props = {
-	directionLeft?: boolean;
+type Inputs = {
+	name: string;
+	email: string;
+	subject: string;
+	message: string;
 };
 
-function contact({ directionLeft }: Props) {
+type Props = {};
+
+function contact({}: Props) {
+	const { register, handleSubmit } = useForm<Inputs>();
+
+	const onSubmit: SubmitHandler<Inputs> = (formData) => {
+		window.location.href = `mailto:ingwemmanuel@gmail?subject=${formData.subject}&body=Hello, my name is ${formData.name}, ${formData.message} (${formData.email})`;
+	};
+
 	return (
 		<div className='gradient-01 h-screen w-full text-gray-400 snap-y snap-madatory overflow-x-hidden z-0'>
 			<Head>
@@ -44,10 +57,12 @@ function contact({ directionLeft }: Props) {
 					</div>
 
 					<form
+						onSubmit={handleSubmit(onSubmit)}
 						className='flex flex-col space-y-2 w-screen sm:w-fit p-3'
 						action=''>
 						<div className='flex flex-col sm:flex-row sm:space-x-2'>
 							<motion.input
+								{...register("name")}
 								initial={{
 									y: 300,
 								}}
@@ -61,6 +76,7 @@ function contact({ directionLeft }: Props) {
 								type='text'
 							/>
 							<motion.input
+								{...register("email")}
 								initial={{
 									y: 300,
 								}}
@@ -76,6 +92,7 @@ function contact({ directionLeft }: Props) {
 						</div>
 
 						<motion.input
+							{...register("subject")}
 							initial={{
 								y: 300,
 							}}
@@ -90,6 +107,7 @@ function contact({ directionLeft }: Props) {
 						/>
 
 						<motion.textarea
+							{...register("message")}
 							initial={{
 								y: 240,
 							}}
@@ -100,7 +118,8 @@ function contact({ directionLeft }: Props) {
 							viewport={{ once: false }}
 							placeholder='Message'
 							className='contactInput'
-							name=''
+							typeof='text'
+							name='message'
 							id=''></motion.textarea>
 
 						<motion.button
