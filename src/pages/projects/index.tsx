@@ -7,7 +7,7 @@ type Props = {};
 
 function index({}: Props) {
 	return (
-		<div className='gradient-01 h-full md:h-screen xl:h-full w-full text-gray-400 snap-y snap-madatory overflow-hidde z-0'>
+		<div className='gradient-01 h-full md:h-screen xl:h-full w-full text-gray-400 snap-y snap-madatory scrollbar-thin scrollbar-track-gray-700/20 scrollbar-thumb-red-950/40 z-0'>
 			<Head>
 				<title>E.i | my Projects</title>
 			</Head>
@@ -19,7 +19,7 @@ function index({}: Props) {
 					Projects
 				</h3>
 
-				<div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mb-20'>
+				<div className='w-full flex space-x-5 overflow-x-scroll  scrollbar-track-gray-700/20 scrollbar-thumb-red-950/40 scrollbar-thin p-10 snap-x snap-mandatory mb-20'>
 					<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
 						<motion.img
 							initial={{
