@@ -3,7 +3,6 @@ import Head from "next/head";
 import Header from "../Header";
 import { motion } from "framer-motion";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
-import { type } from "os";
 import { useForm, SubmitHandler } from "react-hook-form";
 
 type Inputs = {
