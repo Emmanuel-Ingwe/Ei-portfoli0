@@ -4,6 +4,7 @@ import Header from "../Header";
 import { motion } from "framer-motion";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
+import Footer from "../Footer";
 
 type Inputs = {
 	name: string;
@@ -137,6 +138,8 @@ function contact({}: Props) {
 					</form>
 				</div>
 			</div>
+
+			<Footer />
 		</div>
 	);
 }

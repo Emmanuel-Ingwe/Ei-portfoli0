@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "../Header";
 import { motion } from "framer-motion";
+import Footer from "../Footer";
 
 type Props = {
 	directionLeft?: boolean;
@@ -214,6 +215,8 @@ function stacks({ directionLeft }: Props) {
 					</div>
 				</div>
 			</div>
+
+			<Footer />
 		</div>
 	);
 }
