@@ -3,7 +3,6 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import SocialIcons from "../components/SocialIcons";
 import Mailto from "../components/Mailto";
-import Footer from "../src/pages/Footer";
 
 type Props = {};
 
@@ -16,7 +15,7 @@ function Hero({}: Props) {
 
 	return (
 		<div>
-			<div className='container h-full flex flex-col space-y- items-center justify-center text-center overflow-hidden'>
+			<div className='container h-full flex flex-col items-center justify-center text-center overflow-hidden'>
 				<BackgroundCircles />
 				<img
 					src='dp.jpg'
@@ -36,7 +35,6 @@ function Hero({}: Props) {
 
 				<Mailto />
 			</div>
-			<Footer />
 		</div>
 	);
 }

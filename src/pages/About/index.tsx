@@ -8,7 +8,7 @@ type Props = {};
 
 function index({}: Props) {
 	return (
-		<div className='gradient-01 h-screen w-full overflow-y-scroll scrollbar-track-gray-700/20 scrollbar-thumb-red-950 scrollbar-thin'>
+		<div className='gradient-01 h-screen w-full overflow-x-hidden overflow-y-scroll scrollbar-track-gray-700/20 scrollbar-thumb-red-950 scrollbar-thin'>
 			<Head>
 				<title>E.i | About me</title>
 			</Head>
