@@ -67,7 +67,7 @@ function contact({}: Props) {
 									y: 300,
 								}}
 								transition={{
-									duration: 0.5,
+									duration: 0.3,
 								}}
 								whileInView={{ y: 0 }}
 								viewport={{ once: true }}
@@ -81,7 +81,7 @@ function contact({}: Props) {
 									y: 300,
 								}}
 								transition={{
-									duration: 0.5,
+									duration: 0.3,
 								}}
 								whileInView={{ y: 0 }}
 								viewport={{ once: false }}
@@ -97,7 +97,7 @@ function contact({}: Props) {
 								y: 300,
 							}}
 							transition={{
-								duration: 0.8,
+								duration: 0.4,
 							}}
 							whileInView={{ y: 0 }}
 							viewport={{ once: false }}
@@ -112,7 +112,7 @@ function contact({}: Props) {
 								y: 240,
 							}}
 							transition={{
-								duration: 1,
+								duration: 0.5,
 							}}
 							whileInView={{ y: 0 }}
 							viewport={{ once: false }}
@@ -127,7 +127,7 @@ function contact({}: Props) {
 								x: 250,
 							}}
 							transition={{
-								duration: 1.5,
+								duration: 0.55,
 							}}
 							whileInView={{ x: 0 }}
 							viewport={{ once: false }}
