@@ -3,6 +3,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import SocialIcons from "../components/SocialIcons";
 import Mailto from "../components/Mailto";
+import Footer from "../src/pages/Footer";
 
 type Props = {};
 
@@ -14,25 +15,28 @@ function Hero({}: Props) {
 	});
 
 	return (
-		<div className='container h-full flex flex-col space-y- items-center justify-center text-center overflow-hidden'>
-			<BackgroundCircles />
-			<img
-				src='dp.jpg'
-				alt=''
-				width='120px'
-				className='absolute rounded-full mt-16'
-			/>
-			<h2 className='absolute uppercase text-gray-700 bottom-32 tracking-[8px] text-sm'>
-				Software Engineer
-			</h2>
-			<h1>
-				<span>{text}</span>
-				<Cursor cursorColor='indigo' />
-			</h1>
+		<div>
+			<div className='container h-full flex flex-col space-y- items-center justify-center text-center overflow-hidden'>
+				<BackgroundCircles />
+				<img
+					src='dp.jpg'
+					alt=''
+					width='120px'
+					className='absolute rounded-full mt-16'
+				/>
+				<h2 className='absolute uppercase text-gray-700 bottom-32 tracking-[8px] text-sm'>
+					Software Engineer
+				</h2>
+				<h1>
+					<span>{text}</span>
+					<Cursor cursorColor='indigo' />
+				</h1>
 
-			<SocialIcons />
+				<SocialIcons />
 
-			<Mailto />
+				<Mailto />
+			</div>
+			<Footer />
 		</div>
 	);
 }

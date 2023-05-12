@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "../Header";
 import { motion } from "framer-motion";
+import Footer from "../Footer";
 
 type Props = {};
 
@@ -166,6 +167,7 @@ function index({}: Props) {
 					</article>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 }
