@@ -47,13 +47,13 @@ function index({}: Props) {
 						whileInView={{ y: 0 }}
 						viewport={{ once: true }}
 						className='text-base text-gray-500'>
-						I'm Emmanuel, a Frontend Developer, I am passionate about using
-						codes to create helpful projects and solving problems, I like being
-						productive with my time. I build good and swift web applications
-						that help individuals, businesses & brands satisfy their customers
-						and compete globally. I’ve always been obsessed with technology and
-						I plan on working with more advanced & modernised technologies in
-						future.
+						I'm <b className='text-gray-400/95'>Emmanuel Ingwe</b>, <br /> a
+						Frontend Developer with 3+ years of experience. I build good and
+						swift web applications with technologies such as react, nextjs with
+						typescript, that help individuals, businesses & brands satisfy their
+						customers and compete globally. I'm passionate about my job, and
+						always makes sure it's done. I'm available for new projects and
+						freelance collaborations, get in touch, let's work together fam.
 					</motion.p>
 				</div>
 			</div>
