@@ -44,7 +44,11 @@ function contact({}: Props) {
 					<div className='space-y-10'>
 						<div className='flex items-center space-x-5 justify-center'>
 							<PhoneIcon className='text-red-900 h-7 w-7 animate-pulse' />
-							<p className='text-1xl'>+2348139320656</p>
+							<p className='text-1xl animate-bounce'>
+								<a href='https://wa.me/message/FI6OFAJRBKVMI1'>
+									+2348139320656{" "}
+								</a>
+							</p>
 						</div>
 						<div className='flex items-center space-x-5 justify-center'>
 							<EnvelopeIcon className='text-red-900 h-7 w-7 animate-pulse' />
