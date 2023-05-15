@@ -59,7 +59,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='firebase.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
@@ -74,7 +74,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='redux.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
@@ -89,7 +89,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='sanity.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
@@ -104,7 +104,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='sass.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
@@ -119,7 +119,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='figma.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
@@ -134,7 +134,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='next.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
@@ -149,7 +149,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='react.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
@@ -164,7 +164,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='git.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
@@ -179,7 +179,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='bs.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
@@ -194,7 +194,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='js.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter transition duration-300 ease-in-out group-hover:grayscale'
 							/>
@@ -209,7 +209,7 @@ function stacks({ directionLeft }: Props) {
 									duration: 1,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
-								src='tailwind.jpg'
+								src='ts.jpg'
 								alt=''
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
