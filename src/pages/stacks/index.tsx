@@ -61,7 +61,7 @@ function stacks({ directionLeft }: Props) {
 								whileInView={{ opacity: 1, x: 0 }}
 								src='firebase.jpg'
 								alt=''
-								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
+								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter grayscale group-hover:grayscale-0 transition duration-300 ease-in-out'
 							/>
 						</div>
 						<div className='group relative flex cursor-pointer'>
@@ -91,7 +91,7 @@ function stacks({ directionLeft }: Props) {
 								whileInView={{ opacity: 1, x: 0 }}
 								src='sanity.jpg'
 								alt=''
-								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
+								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter grayscale group-hover:grayscale-0 transition duration-300 ease-in-out'
 							/>
 						</div>
 						<div className='group relative flex cursor-pointer'>
@@ -121,7 +121,7 @@ function stacks({ directionLeft }: Props) {
 								whileInView={{ opacity: 1, x: 0 }}
 								src='figma.jpg'
 								alt=''
-								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
+								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter grayscale group-hover:grayscale-0 transition duration-300 ease-in-out'
 							/>
 						</div>
 						<div className='group relative flex cursor-pointer'>
@@ -166,7 +166,7 @@ function stacks({ directionLeft }: Props) {
 								whileInView={{ opacity: 1, x: 0 }}
 								src='git.jpg'
 								alt=''
-								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
+								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter grayscale group-hover:grayscale-0 transition duration-300 ease-in-out'
 							/>
 						</div>
 						<div className='group relative flex cursor-pointer'>
@@ -211,7 +211,7 @@ function stacks({ directionLeft }: Props) {
 								whileInView={{ opacity: 1, x: 0 }}
 								src='ts.jpg'
 								alt=''
-								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
+								className='rounded-full border border-gray-500  object-cover w-24 h-24 xl:w-32 xl:h-32 filter grayscale group-hover:grayscale-0 transition duration-300 ease-in-out'
 							/>
 						</div>
 					</div>
