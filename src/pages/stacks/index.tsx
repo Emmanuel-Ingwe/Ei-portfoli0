@@ -33,7 +33,7 @@ function stacks({ directionLeft }: Props) {
 						Skills
 					</motion.h3>
 
-					<div className='grid grid-cols-2 gap-7 sm:grid-cols-4 xl:grid-cols-6 items-center justify-center md:mt-28'>
+					<div className='grid grid-cols-2 gap-7 sm:grid-cols-4 xl:grid-cols-6 items-center justify-center md:mt-28 md:mb-0 mb-16'>
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
