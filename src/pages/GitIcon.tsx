@@ -2,6 +2,10 @@ import Link from "next/link";
 import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
+import { types } from "util";
+import { link } from "fs";
+
+type GitIcon = { link: string };
 
 function GitIcon() {
 	const socialLinks = [
