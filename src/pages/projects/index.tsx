@@ -43,7 +43,7 @@ function index({}: Props) {
 								<h4 className='text-3xl font-light'>
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 1 :</small>{" "}
-									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-400'>
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://github.com/Emmanuel-ingwe'>Disney Clone</a>
 									</small>
 								</h4>
@@ -74,7 +74,9 @@ function index({}: Props) {
 								<h4 className='text-3xl font-light'>
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 2 :</small>{" "}
-									<small className='font-thin text-cyan-900'>Hulu Clone</small>
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
+										<a href='https://github.com/Emmanuel-ingwe'>Hulu Clone</a>
+									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
 									Hulu clone web app, built with react, tailwind and firebase
@@ -102,8 +104,8 @@ function index({}: Props) {
 								<h4 className='text-3xl font-light'>
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 3 :</small>{" "}
-									<small className='font-thin text-cyan-900'>
-										Disney Clone
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
+										<a href='https://github.com/Emmanuel-ingwe'>Hulu Clone</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
@@ -133,8 +135,8 @@ function index({}: Props) {
 								<h4 className='text-3xl font-light'>
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 4 :</small>{" "}
-									<small className='font-thin text-cyan-900'>
-										Disney Clone
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
+										<a href='https://github.com/Emmanuel-ingwe'>Hulu Clone</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
@@ -164,8 +166,8 @@ function index({}: Props) {
 								<h4 className='text-3xl font-light'>
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 5 :</small>{" "}
-									<small className='font-thin text-cyan-900'>
-										Disney Clone
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
+										<a href='https://github.com/Emmanuel-ingwe'>Hulu Clone</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
@@ -195,8 +197,8 @@ function index({}: Props) {
 								<h4 className='text-3xl font-light'>
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 6 :</small>{" "}
-									<small className='font-thin text-cyan-900'>
-										Disney Clone
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
+										<a href='https://github.com/Emmanuel-ingwe'>Hulu Clone</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
