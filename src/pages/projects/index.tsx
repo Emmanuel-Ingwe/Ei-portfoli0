@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../Header";
 import { motion } from "framer-motion";
 import Footer from "../Footer";
+import GitIcon from "../GitIcon";
 
 type Props = {};
 
@@ -42,14 +43,15 @@ function index({}: Props) {
 								<h4 className='text-3xl font-light'>
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 1 :</small>{" "}
-									<small className='font-thin text-cyan-900'>
-										Disney Clone
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-400'>
+										<a href='https://github.com/Emmanuel-ingwe'>Disney Clone</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
 									Disney clone web app, built with nextjs, tailwind, firebase
 									and google auth.
 								</p>
+								<GitIcon />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center  space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
@@ -77,6 +79,7 @@ function index({}: Props) {
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
 									Hulu clone web app, built with react, tailwind and firebase
 								</p>
+								<GitIcon />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px]  snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
@@ -107,6 +110,7 @@ function index({}: Props) {
 									Disney clone web app, built with nextjs, tailwind and google
 									auth.
 								</p>
+								<GitIcon />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
@@ -137,6 +141,7 @@ function index({}: Props) {
 									Disney clone web app, built with nextjs, tailwind and google
 									auth.
 								</p>
+								<GitIcon />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
@@ -167,6 +172,7 @@ function index({}: Props) {
 									Disney clone web app, built with nextjs, tailwind and google
 									auth.
 								</p>
+								<GitIcon />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
@@ -197,6 +203,7 @@ function index({}: Props) {
 									Disney clone web app, built with nextjs, tailwind and google
 									auth.
 								</p>
+								<GitIcon />
 							</div>
 						</article>
 					</div>
