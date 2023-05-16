@@ -39,10 +39,16 @@ function index({}: Props) {
 							/>
 
 							<div className='px-0 md:px-10'>
-								<h4 className='text-3xl font-light'>Disney Clone</h4>
-								<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Quibusdam, qui.
+								<h4 className='text-3xl font-light'>
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 1 :</small>{" "}
+									<small className='font-thin text-cyan-900'>
+										Disney Clone
+									</small>
+								</h4>
+								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
+									Disney clone web app, built with nextjs, tailwind, firebase
+									and google auth.
 								</p>
 							</div>
 						</article>
@@ -63,10 +69,13 @@ function index({}: Props) {
 							/>
 
 							<div className='px-0 md:px-10'>
-								<h4 className='text-3xl font-light'>Disney Clone</h4>
-								<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Quibusdam, qui.
+								<h4 className='text-3xl font-light'>
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 2 :</small>{" "}
+									<small className='font-thin text-cyan-900'>Hulu Clone</small>
+								</h4>
+								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
+									Hulu clone web app, built with react, tailwind and firebase
 								</p>
 							</div>
 						</article>
@@ -87,10 +96,16 @@ function index({}: Props) {
 							/>
 
 							<div className='px-0 md:px-10'>
-								<h4 className='text-3xl font-light'>Disney Clone</h4>
-								<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Quibusdam, qui.
+								<h4 className='text-3xl font-light'>
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 3 :</small>{" "}
+									<small className='font-thin text-cyan-900'>
+										Disney Clone
+									</small>
+								</h4>
+								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
+									Disney clone web app, built with nextjs, tailwind and google
+									auth.
 								</p>
 							</div>
 						</article>
@@ -111,10 +126,16 @@ function index({}: Props) {
 							/>
 
 							<div className='px-0 md:px-10'>
-								<h4 className='text-3xl font-light'>Disney Clone</h4>
-								<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Quibusdam, qui.
+								<h4 className='text-3xl font-light'>
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 4 :</small>{" "}
+									<small className='font-thin text-cyan-900'>
+										Disney Clone
+									</small>
+								</h4>
+								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
+									Disney clone web app, built with nextjs, tailwind and google
+									auth.
 								</p>
 							</div>
 						</article>
@@ -135,10 +156,16 @@ function index({}: Props) {
 							/>
 
 							<div className='px-0 md:px-10'>
-								<h4 className='text-3xl font-light'>Case study:</h4>
-								<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Quibusdam, qui.
+								<h4 className='text-3xl font-light'>
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 5 :</small>{" "}
+									<small className='font-thin text-cyan-900'>
+										Disney Clone
+									</small>
+								</h4>
+								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
+									Disney clone web app, built with nextjs, tailwind and google
+									auth.
 								</p>
 							</div>
 						</article>
@@ -159,10 +186,16 @@ function index({}: Props) {
 							/>
 
 							<div className='px-0 md:px-10'>
-								<h4 className='text-3xl font-light'>Disney Clone</h4>
-								<p className='text-gray-500 underline decoration-red-950 text-1xl mt-1'>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Quibusdam, qui.
+								<h4 className='text-3xl font-light'>
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 6 :</small>{" "}
+									<small className='font-thin text-cyan-900'>
+										Disney Clone
+									</small>
+								</h4>
+								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
+									Disney clone web app, built with nextjs, tailwind and google
+									auth.
 								</p>
 							</div>
 						</article>
