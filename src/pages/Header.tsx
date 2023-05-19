@@ -25,18 +25,18 @@ export default function Header({}: Props) {
 							</Link>
 						</li>
 						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-all duration-500 '>
-							<Link href='/projects'>Projects</Link>
+							<Link href='/Projects'>Projects</Link>
 						</li>
 						<li className=' hover:text-gray-500 text-sm hover:tracking-[0.5px] transition-all duration-500'>
 							<Link href='/'>\home</Link>
 						</li>
 						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-all duration-500'>
-							<Link href='/contact'>
+							<Link href='/Contact'>
 								Contact <small className='text-xs font-extralight'>me</small>
 							</Link>
 						</li>
 						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-all duration-500'>
-							<Link href='/stacks'>
+							<Link href='/Stacks'>
 								<span className='hover:text-red-800 font-extralight'>/</span>{" "}
 								Stacks
 							</Link>
