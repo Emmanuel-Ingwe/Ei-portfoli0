@@ -5,14 +5,16 @@ import { motion } from "framer-motion";
 
 type GitIcon = { link?: string };
 
-function GitIcon() {
+function GitIcon({ link }: GitIcon) {
+	// console.log(link);
 	const socialLinks = [
 		{
 			name: "Github",
 			icon: <FiGithub />,
-			link: "",
+			// link: "www.gihub.com/GideonOdiokine",
 		},
 	];
+
 	return (
 		<motion.div
 			className=''
@@ -24,9 +26,9 @@ function GitIcon() {
 				delay: 1.95,
 			}}>
 			<ul className=''>
-				{socialLinks.map(({ name, icon, link }) => (
+				{socialLinks.map(({ name, icon }) => (
 					<li key={name} title={name} className='hover:animate-bounce'>
-						<Link href={link} className='' target='_blank'>
+						<Link href={`${link}`} className='' target='_blank'>
 							{icon}
 						</Link>
 					</li>
