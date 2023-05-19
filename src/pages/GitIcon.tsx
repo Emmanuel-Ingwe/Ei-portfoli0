@@ -3,7 +3,7 @@ import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
 
-type GitIcon = { link: string };
+type GitIcon = { link?: string };
 
 function GitIcon() {
 	const socialLinks = [
