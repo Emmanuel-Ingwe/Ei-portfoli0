@@ -28,7 +28,7 @@ function GitIcon({ link }: GitIcon) {
 			<ul className=''>
 				{socialLinks.map(({ name, icon }) => (
 					<li key={name} title={name} className='hover:animate-bounce'>
-						<Link href={`${link}`} className='' target='_blank'>
+						<Link href={link} className='' target='_blank'>
 							{icon}
 						</Link>
 					</li>
