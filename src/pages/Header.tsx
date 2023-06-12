@@ -6,7 +6,7 @@ import { type } from "os";
 
 type Props = {};
 
-type img = { string: any };
+// type img = { string: any };
 
 export default function Header({}: Props) {
 	return (
@@ -26,7 +26,7 @@ export default function Header({}: Props) {
 							</Link>
 						</li>
 						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-all duration-500 '>
-							<Link href='/projects'>Projects</Link>
+							<Link href='/'>Projects</Link>
 						</li>
 						<li className=' hover:text-gray-500 text-sm hover:tracking-[0.5px] transition-all duration-500'>
 							<Link href='/'>\home</Link>
