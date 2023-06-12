@@ -51,7 +51,7 @@ function index({}: Props) {
 									Disney clone web app, built with nextjs, tailwind, firebase
 									and google auth.
 								</p>
-								<GitIcon />
+								<GitIcon link="https://github.com/Emmanuel-ingwe" />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center  space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
@@ -112,7 +112,7 @@ function index({}: Props) {
 									Disney clone web app, built with nextjs, tailwind and google
 									auth.
 								</p>
-								<GitIcon />
+								<GitIcon link="https://github.com/Emmanuel-ingwe" />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
@@ -143,7 +143,7 @@ function index({}: Props) {
 									Disney clone web app, built with nextjs, tailwind and google
 									auth.
 								</p>
-								<GitIcon />
+								<GitIcon link="https://github.com/Emmanuel-ingwe" />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
@@ -174,7 +174,7 @@ function index({}: Props) {
 									Disney clone web app, built with nextjs, tailwind and google
 									auth.
 								</p>
-								<GitIcon />
+								<GitIcon link="https://github.com/Emmanuel-ingwe" />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
@@ -205,7 +205,7 @@ function index({}: Props) {
 									Disney clone web app, built with nextjs, tailwind and google
 									auth.
 								</p>
-								<GitIcon />
+								<GitIcon link="https://github.com/Emmanuel-ingwe" />
 							</div>
 						</article>
 					</div>
