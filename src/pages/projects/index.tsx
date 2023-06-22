@@ -201,7 +201,7 @@ function index({}: Props) {
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 2 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
-										<a href='https://hulu-2-0-jet.vercel.app/u_Clone/'>Hulu Clone</a>
+										<a href='https://hulu-2-0-jet.vercel.app/'>Hulu Clone</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
