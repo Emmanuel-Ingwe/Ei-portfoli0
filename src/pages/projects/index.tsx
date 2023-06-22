@@ -83,7 +83,7 @@ function index({}: Props) {
 									Disney clone web app, built with nextjs, tailwind and google
 									auth.
 								</p>
-								<GitIcon link="https://github.com/Emmanuel-ingwe" />
+								<GitIcon link="https://github.com/Emmanuel-Ingwe/bank-modern-app" />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
