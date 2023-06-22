@@ -44,7 +44,7 @@ function index({}: Props) {
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 1 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
-										<a href='https://github.com/Emmanuel-ingwe'>Disney Clone</a>
+										<a href='https://github.com/Emmanuel-ingwe/disney-clone'>Disney Clone</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
