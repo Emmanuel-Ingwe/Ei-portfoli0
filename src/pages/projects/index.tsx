@@ -198,7 +198,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='disney-big.jpg'
+								src='mod-web.jpg'
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center items-center justify-center'
 							/>
@@ -229,8 +229,12 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
+<<<<<<< HEAD
 								src='disney-big.jpg'
 >>>>>>> 2966151 (_)
+=======
+								src='e-com.jpg'
+>>>>>>> 63c9a0d (_)
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center'
 							/>
