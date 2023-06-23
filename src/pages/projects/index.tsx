@@ -84,11 +84,16 @@ function index({}: Props) {
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 3 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
+<<<<<<< HEAD
 										<a href='https://kick-nationfigm.vercel.app/'>Kick Nation</a>
+=======
+										<a href='https://github.com/Emmanuel-ingwe'>Kick Nation</a>
+>>>>>>> 4059b2c (--)
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
 									A Mystery football shirt experience store app. built with nextjs and tailwind.
+<<<<<<< HEAD
 								</p>
 <<<<<<< HEAD
 								<GitIcon link="https://github.com/Emmanuel-Ingwe/kick-nationfigm" />
@@ -153,8 +158,10 @@ function index({}: Props) {
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
 										A Modern website Ui, Built with react and tailwind css.
+=======
+>>>>>>> 4059b2c (--)
 								</p>
-								<GitIcon link="https://github.com/Emmanuel-Ingwe/bank-modern-app" />
+								<GitIcon link="https://github.com/Emmanuel-Ingwe/kick-nationfigm" />
 							</div>
 						</article>
 						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
@@ -185,12 +192,11 @@ function index({}: Props) {
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 4 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
-										<a href='https://github.com/Emmanuel-ingwe'>Hulu Clone</a>
+										<a href='https://github.com/Emmanuel-ingwe'>----</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
-									Disney clone web app, built with nextjs, tailwind and google
-									auth.
+									Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
 								</p>
 								<GitIcon link="https://github.com/Emmanuel-ingwe" />
 							</div>
@@ -216,12 +222,11 @@ function index({}: Props) {
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 5 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
-										<a href='https://github.com/Emmanuel-ingwe'>Hulu Clone</a>
+										<a href='https://github.com/Emmanuel-ingwe'>Payment website</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
-									Disney clone web app, built with nextjs, tailwind and google
-									auth.
+										A Modern website Ui, Built with react and tailwind css.
 								</p>
 								<GitIcon link="https://github.com/Emmanuel-ingwe" />
 							</div>
