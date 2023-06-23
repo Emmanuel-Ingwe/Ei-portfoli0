@@ -66,7 +66,11 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
+<<<<<<< HEAD
 								src='kick-nation.png'
+=======
+								src='kick-nation.jpg'
+>>>>>>> 2966151 (_)
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center'
 							/>
@@ -160,7 +164,73 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
+<<<<<<< HEAD
 								src='e-com.png'
+=======
+								src='kick-nation.jpg'
+								alt=''
+								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center '
+							/>
+
+							<div className='px-0 md:px-10'>
+								<h4 className='text-3xl font-light'>
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 4 :</small>{" "}
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
+										<a href='https://github.com/Emmanuel-ingwe'>Hulu Clone</a>
+									</small>
+								</h4>
+								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
+									Disney clone web app, built with nextjs, tailwind and google
+									auth.
+								</p>
+								<GitIcon link="https://github.com/Emmanuel-ingwe" />
+							</div>
+						</article>
+						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
+							<motion.img
+								initial={{
+									y: -100,
+									opacity: 0,
+								}}
+								transition={{
+									duration: 1.2,
+								}}
+								whileInView={{ opacity: 1, y: 0 }}
+								viewport={{ once: true }}
+								src='disney-big.jpg'
+								alt=''
+								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center items-center justify-center'
+							/>
+
+							<div className='px-0 md:px-10'>
+								<h4 className='text-3xl font-light'>
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 5 :</small>{" "}
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
+										<a href='https://github.com/Emmanuel-ingwe'>Hulu Clone</a>
+									</small>
+								</h4>
+								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
+									Disney clone web app, built with nextjs, tailwind and google
+									auth.
+								</p>
+								<GitIcon link="https://github.com/Emmanuel-ingwe" />
+							</div>
+						</article>
+						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
+							<motion.img
+								initial={{
+									y: -100,
+									opacity: 0,
+								}}
+								transition={{
+									duration: 1.2,
+								}}
+								whileInView={{ opacity: 1, y: 0 }}
+								viewport={{ once: true }}
+								src='disney-big.jpg'
+>>>>>>> 2966151 (_)
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center'
 							/>
