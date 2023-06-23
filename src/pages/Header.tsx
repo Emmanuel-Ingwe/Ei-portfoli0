@@ -25,11 +25,7 @@ export default function Header({}: Props) {
 							</Link>
 						</li>
 						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-all duration-500 '>
-<<<<<<< HEAD
-							<Link href='/'>Projects</Link>
-=======
 							<Link href='/Projects'>Projects</Link>
->>>>>>> 531ae92 (pages name)
 						</li>
 						<li className=' hover:text-gray-500 text-sm hover:tracking-[0.5px] transition-all duration-500'>
 							<Link href='/'>\home</Link>
