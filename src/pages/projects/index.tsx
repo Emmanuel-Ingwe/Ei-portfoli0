@@ -66,7 +66,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='kick-nation.jpg'
+								src='kick-nation.png'
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center'
 							/>
@@ -97,7 +97,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='kick-nation.jpg'
+								src='kick-nation.png'
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center '
 							/>
@@ -128,7 +128,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='mod-web.jpg'
+								src='mod-webs.png'
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center items-center justify-center'
 							/>
@@ -159,7 +159,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='e-com.jpg'
+								src='e-com.png'
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center'
 							/>
