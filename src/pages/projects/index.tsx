@@ -67,10 +67,14 @@ function index({}: Props) {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 <<<<<<< HEAD
+<<<<<<< HEAD
 								src='kick-nation.png'
 =======
 								src='kick-nation.jpg'
 >>>>>>> 2966151 (_)
+=======
+								src='kick-nation.png'
+>>>>>>> ffe6ced (..)
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center'
 							/>
@@ -165,9 +169,13 @@ function index({}: Props) {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 <<<<<<< HEAD
+<<<<<<< HEAD
 								src='e-com.png'
 =======
 								src='kick-nation.jpg'
+=======
+								src='kick-nation.png'
+>>>>>>> ffe6ced (..)
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center '
 							/>
@@ -198,7 +206,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='mod-web.jpg'
+								src='mod-webs.png'
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center items-center justify-center'
 							/>
@@ -230,11 +238,15 @@ function index({}: Props) {
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
 <<<<<<< HEAD
+<<<<<<< HEAD
 								src='disney-big.jpg'
 >>>>>>> 2966151 (_)
 =======
 								src='e-com.jpg'
 >>>>>>> 63c9a0d (_)
+=======
+								src='e-com.png'
+>>>>>>> ffe6ced (..)
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center'
 							/>
