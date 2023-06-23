@@ -66,7 +66,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='disney-big.jpg'
+								src='kick-nation.jpg'
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center'
 							/>
@@ -97,7 +97,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='disney-big.jpg'
+								src='kick-nation.jpg'
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center '
 							/>
