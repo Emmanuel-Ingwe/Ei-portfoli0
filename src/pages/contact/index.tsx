@@ -47,10 +47,14 @@ function contact({}: Props) {
 								<PhoneIcon className='text-red-900 h-7 w-7 animate-pulse' />
 								<p className='text-1xl animate-bounce'>
 <<<<<<< HEAD
+<<<<<<< HEAD
 									<a href='https://wa.me/message/5CHBOGLFKMBVB1'>
 =======
 									<a href='https://wa.me'>
 >>>>>>> 828f7fd (wa/me)
+=======
+									<a href='https://wa.me/message/5CHBOGLFKMBVB1'>
+>>>>>>> 0be6a0b (latest commit)
 										+2348139320656{" "}
 									</a>
 								</p>
