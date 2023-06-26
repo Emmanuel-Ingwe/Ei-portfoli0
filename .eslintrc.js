@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
   },
   extends: [
-    'plugin:react/recommended',
+    'plugin:next/recommended',
     'airbnb',
   ],
   parserOptions: {
@@ -15,7 +15,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'react',
+    'next', 'react'
   ],
   rules: {
     'react/no-unescaped-entities': 0,
