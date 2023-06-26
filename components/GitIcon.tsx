@@ -3,7 +3,7 @@ import React from "react";
 import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
 
-type GitIcon = { link?: string };
+type GitIcon = { link: string };
 
 function GitIcon({ link }: GitIcon) {
 	// console.log(link);
@@ -11,7 +11,6 @@ function GitIcon({ link }: GitIcon) {
 		{
 			name: "Github",
 			icon: <FiGithub />,
-			// link: "www.gihub.com/GideonOdiokine",
 		},
 	];
 
