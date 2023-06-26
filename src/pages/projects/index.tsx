@@ -15,7 +15,7 @@ function index({}: Props) {
 					<title>E.i | my Projects</title>
 				</Head>
 
-				<Header />npm run dev
+				<Header />
 
 				<div className='container flex flex-col items-center justify-center'>
 					<h3 className='uppercase tracking-[20px] text-gray-500 text-2xl m-10'>
