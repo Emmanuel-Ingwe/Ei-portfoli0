@@ -3,7 +3,7 @@ import Head from "next/head";
 import Header from "../Header";
 import { motion } from "framer-motion";
 import Footer from "../Footer";
-import GitIcon from "/components/GitIcon";
+import GitIcon from "../../../components/GitIcon";
 
 type Props = {};
 
