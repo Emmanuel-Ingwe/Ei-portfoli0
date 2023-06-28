@@ -126,7 +126,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='mod-webs.png'
+								src='portfolio-img.png'
 								alt=''
 								className='h-52 w-64 rounded-2xl md:w-96 xl:w-3/5 object-cover object-center items-center justify-center'
 							/>
