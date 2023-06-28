@@ -106,11 +106,11 @@ function index({}: Props) {
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 4 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
-										<a href='https://github.com/Emmanuel-ingwe'>----</a>
+										<a href='https://ei-portfoli0.vercel.app/'>Personal Portfolio website</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
-									Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+									My Portfolio website, built with nextjs, typescript, framer motion and tailwind css.
 								</p>
 								<GitIcon link="https://github.com/Emmanuel-Ingwe/Ei-portfoli0" />
 							</div>
