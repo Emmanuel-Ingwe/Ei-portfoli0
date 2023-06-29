@@ -48,8 +48,7 @@ function index({}: Props) {
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
-									Disney clone web app, built with nextjs, tailwind, firebase
-									and google auth.
+									Meta website, built with react, nextjs, tailwind, and framer motion
 								</p>
 								<GitIcon link="https://github.com/Emmanuel-ingwe/disney-clone" />
 							</div>
