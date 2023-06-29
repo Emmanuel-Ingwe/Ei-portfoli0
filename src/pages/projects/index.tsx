@@ -34,7 +34,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='disney-big.jpg'
+								src='meta.png'
 								alt=''
 								className='h-52 w-64 md:w-96 xl:w-3/5 rounded-2xl object-cover object-center'
 							/>
@@ -44,13 +44,13 @@ function index({}: Props) {
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 1 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
-										<a href='https://disney-clone-yujs.vercel.app/'>Meta website</a>
+										<a href='https://next-meta-webst-3nlv.vercel.app/'>Meta website</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
 									Meta website, built with react, nextjs, tailwind, and framer motion
 								</p>
-								<GitIcon link="https://github.com/Emmanuel-ingwe/disney-clone" />
+								<GitIcon link="https://github.com/Emmanuel-Ingwe/next-meta-webst" />
 							</div>
 						</article>
 
