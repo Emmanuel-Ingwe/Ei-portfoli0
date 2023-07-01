@@ -27,7 +27,7 @@ function index({}: Props) {
 						duration: 0.7,
 					}}
 					whileInView={{ x: 0 }}
-					viewport={{ once: true }}
+					viewport={{ once: false }}
 					src='about-img.jpg'
 					// width='380px'
 					className='about-img top-40 rounded-[20%] -mb-32 w-60 h-64 md:mb-0 flex-shrink-0 object-cover md:w-[300px] md:h-96 xl:w-[340px] xl:h-[440px] xl:rounded-2xl sm:w-[200px] sm:h-[200px]'
@@ -45,7 +45,7 @@ function index({}: Props) {
 							duration: 0.5,
 						}}
 						whileInView={{ y: 0 }}
-						viewport={{ once: true }}
+						viewport={{ once: false }}
 						className='text-base text-gray-500'>
 						I'm <b className='text-gray-400/95'>Emmanuel Ingwe</b>, <br /> a
 						Frontend Developer with 3+ years of experience. I build good and
