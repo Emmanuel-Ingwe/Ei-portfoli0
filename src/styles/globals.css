@@ -128,7 +128,7 @@
 	@apply outline-none bg-slate-400/10 rounded-sm border-b px-1 py-4 border-[#242424] text-gray-400 placeholder-gray-500 transition-all focus:border-red-900/70 focus:text-red-900/70 hover:border-red-900/70;
 }
 
-@media (min-width: 440px) {
+@media screen and (max-width: 374px) {
     .about {
         width: 200px;
     }
