@@ -129,7 +129,7 @@
 }
 
 @media screen and (max-width: 374px) {
-    .about {
-        width: 200px;
-    }
+	.about {
+		height: 144vh;
+	}
 }
