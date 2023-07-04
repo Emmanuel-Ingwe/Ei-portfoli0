@@ -6,7 +6,7 @@ import Footer from "../Footer";
 
 type Props = {};
 
-function index({}: Props) {
+function About({}: Props) {
 	return (
 		<div className='gradient-01 h-screen w-full overflow-x-hidden overflow-y-scroll scrollbar-track-gray-700/20 scrollbar-thumb-red-950 scrollbar-thin'>
 			<Head>
@@ -62,4 +62,4 @@ function index({}: Props) {
 	);
 }
 
-export default index;
+export default About;
