@@ -47,13 +47,7 @@ function About({}: Props) {
 						whileInView={{ y: 0 }}
 						viewport={{ once: false }}
 						className='text-base text-gray-500'>
-						I'm <b className='text-gray-400/95'>Emmanuel Ingwe</b>, <br /> a
-						Frontend Developer with 3+ years of experience. I build good and
-						swift web applications with technologies such as react, nextjs with
-						typescript, that help individuals, businesses & brands satisfy their
-						customers and compete globally. I'm passionate about my job, and
-						always makes sure it's done. I'm available for new projects and
-						freelance collaborations, get in touch, let's work together fam.
+						I'm <b className='text-gray-400/95'>Emmanuel Ingwe</b>, <br /> a Frontend Developer with more than 3 years of experience, I have honed my skills in utilizing cutting-edge technologies like React and, coupled with a good understanding of Typescript. Throughout my career, I have consistently demonstrated my ability to deliver top-notch, visually captivating, and high-performing web applications in a timely manner.  I am passionate about using codes to create helpful projects and solving problems, debugging, testing, and going on with maintenance.
 					</motion.p>
 				</div>
 			</div>
