@@ -44,13 +44,13 @@ function Projects({}: Props) {
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 1 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
-										<a href='https://next-meta-webst-3nlv.vercel.app/'>Meta website</a>
+										<a href='https://car-show-plus.vercel.app/'>CarShow plus</a>
 									</small>
 								</h4>
 								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
-									Meta website, built with react, nextjs, tailwind, and framer motion
+									A car rental app, built with nextjs, typescript and tailwind css.
 								</p>
-								<GitIcon link="https://github.com/Emmanuel-Ingwe/next-meta-webst" />
+								<GitIcon link="https://github.com/Emmanuel-Ingwe/car_showPlus" />
 							</div>
 						</article>
 						
