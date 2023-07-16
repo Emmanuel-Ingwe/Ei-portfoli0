@@ -7,7 +7,7 @@ import GitIcon from "../../../components/GitIcon";
 
 type Props = {};
 
-function Index({}: Props) {
+function Projects({}: Props) {
 	return (
 		<div>
 			<div className='gradient-01 h-full md:h-screen xl:h-full w-full text-gray-400 snap-y snap-madatory overflow-y-scroll scrollbar-thin scrollbar-track-gray-700/20 scrollbar-thumb-red-950vfbtgnt z-0'>
@@ -245,4 +245,4 @@ function Index({}: Props) {
 	);
 }
 
-export default Index;
+export default Projects;
