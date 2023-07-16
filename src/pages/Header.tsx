@@ -36,7 +36,7 @@ export default function Header({}: Props) {
 							</Link>
 						</li>
 						<li className=' hover:text-gray-500 hover:tracking-[0.5px] transition-all duration-500'>
-							<Link href='/Stacks'>
+							<Link href='/Stacks/stacks'>
 								<span className='hover:text-red-800 font-extralight'>/</span>{" "}
 								Stacks
 							</Link>
