@@ -8,7 +8,7 @@ type Props = {
 	directionLeft?: boolean;
 };
 
-function stacks({ directionLeft }: Props) {
+function Stacks({ directionLeft }: Props) {
 	return (
 		<div>
 			<div className='gradient-01 h-screen w-full text-gray-400 snap-y snap-madatory overflow-x-hidden  scrollbar-track-gray-700/20 scrollbar-thumb-red-950 scrollbar-thin z-0'>
@@ -222,4 +222,4 @@ function stacks({ directionLeft }: Props) {
 	);
 }
 
-export default stacks;
+export default Stacks;
