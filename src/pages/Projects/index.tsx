@@ -72,8 +72,8 @@ function Projects({}: Props) {
 
 							<div className='px-0 md:px-10'>
 								<h4 className='text-3xl font-light'>
-									Case study 2{" "}
-									<small className='font-thin text-gray-500'>of 1 :</small>{" "}
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 2 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://next-meta-webst-3nlv.vercel.app/'>Meta website</a>
 									</small>
@@ -103,8 +103,8 @@ function Projects({}: Props) {
 
 							<div className='px-0 md:px-10'>
 								<h4 className='text-3xl font-light'>
-									Case study 3{" "}
-									<small className='font-thin text-gray-500'>of 1 :</small>{" "}
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 3 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://disney-clone-yujs.vercel.app/'>Disney Clone</a>
 									</small>
@@ -135,8 +135,8 @@ function Projects({}: Props) {
 
 							<div className='px-0 md:px-10'>
 								<h4 className='text-3xl font-light'>
-									Case study 4{" "}
-									<small className='font-thin text-gray-500'>of 3 :</small>{" "}
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 4 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://kick-nationfigm.vercel.app/'>Kick Nation</a>
 									</small>
@@ -165,8 +165,8 @@ function Projects({}: Props) {
 
 							<div className='px-0 md:px-10'>
 								<h4 className='text-3xl font-light'>
-									Case study 5{" "}
-									<small className='font-thin text-gray-500'>of 4 :</small>{" "}
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 5 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://ei-portfoli0.vercel.app/'>Personal Portfolio website</a>
 									</small>
@@ -195,8 +195,8 @@ function Projects({}: Props) {
 
 							<div className='px-0 md:px-10'>
 								<h4 className='text-3xl font-light'>
-									Case study 6{" "}
-									<small className='font-thin text-gray-500'>of 5 :</small>{" "}
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 6 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://bank-modern-app-rust-alpha.vercel.app/'>Payment website</a>
 									</small>
@@ -225,8 +225,8 @@ function Projects({}: Props) {
 
 							<div className='px-0 md:px-10'>
 								<h4 className='text-3xl font-light'>
-									Case study 7{" "}
-									<small className='font-thin text-gray-500'>of 6 :</small>{" "}
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 7 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://github.com/Emmanuel-ingwe'>Flutterwave Clone.</a>
 									</small>
@@ -256,8 +256,8 @@ function Projects({}: Props) {
 
 							<div className='px-0 md:px-10'>
 								<h4 className='text-3xl font-light'>
-									Case study 8{" "}
-									<small className='font-thin text-gray-500'>of 2 :</small>{" "}
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 8 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://hulu-2-0-jet.vercel.app/'>Hulu Clone</a>
 									</small>
