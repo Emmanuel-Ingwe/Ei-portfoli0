@@ -10,7 +10,7 @@ type Props = {};
 function Projects({}: Props) {
 	return (
 		<div>
-			<div className='gradient-01 h-full md:h-screen xl:h-full w-full text-gray-400 snap-y snap-madatory overflow-y-scroll scrollbar-thin scrollbar-track-gray-700/20 scrollbar-thumb-red-950vfbtgnt z-0'>
+			<div className='gradient-01 h-full md:h-screen xl:h-screen w-full text-gray-400 snap-y snap-madatory overflow-y-scroll scrollbar-thin scrollbar-track-gray-700/20 scrollbar-thumb-red-950vfbtgnt z-0'>
 				<Head>
 					<title>E.i | my Projects</title>
 				</Head>
