@@ -22,7 +22,7 @@ function Projects({}: Props) {
 						Projects
 					</h3>
 
-					<div className='w-full flex space-x-5 overflow-x-scroll  scrollbar-track-gray-700/20 scrollbar-thumb-red-950 scrollbar-thin p-10 snap-x snap-mandatory mb-20'>
+					<div className='w-full flex space-x-5 overflow-x-scroll scrollbar-track-gray-700/20 scrollbar-thumb-red-950 scrollbar-thin p-10 snap-x snap-mandatory mb-20'>
 					<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
 							<motion.img
 								initial={{
