@@ -228,7 +228,7 @@ function Projects({}: Props) {
 							<div className='px-0 md:px-10'>
 								<h4 className='text-3xl font-light'>
 									Case study 1{" "}
-									<small className='font-thin text-gray-500'>of 5 :</small>{" "}
+									<small className='font-thin text-gray-500'>of 7 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://ei-portfoli0.vercel.app/'>Personal Portfolio website</a>
 									</small>
@@ -258,7 +258,7 @@ function Projects({}: Props) {
 							<div className='px-0 md:px-10'>
 								<h4 className='text-3xl font-light'>
 									Case study 1{" "}
-									<small className='font-thin text-gray-500'>of 7 :</small>{" "}
+									<small className='font-thin text-gray-500'>of 8 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://bank-modern-app-rust-alpha.vercel.app/'>Payment website</a>
 									</small>
@@ -289,7 +289,7 @@ function Projects({}: Props) {
 							<div className='px-0 md:px-10'>
 								<h4 className='text-3xl font-light'>
 									Case study 1{" "}
-									<small className='font-thin text-gray-500'>of 8 :</small>{" "}
+									<small className='font-thin text-gray-500'>of 9 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://hulu-2-0-jet.vercel.app/'>Hulu Clone</a>
 									</small>
