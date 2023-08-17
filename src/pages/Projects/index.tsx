@@ -34,7 +34,7 @@ function Projects({}: Props) {
 								}}
 								whileInView={{ opacity: 1, y: 0 }}
 								viewport={{ once: true }}
-								src='CarShow.png'
+								src='myaza.png'
 								alt=''
 								className='h-52 w-64 md:w-96 xl:w-3/5 rounded-2xl object-cover object-center'
 							/>
@@ -44,6 +44,37 @@ function Projects({}: Props) {
 									Case study 1{" "}
 									<small className='font-thin text-gray-500'>of 1 :</small>{" "}
 									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
+										<a href='https://www.myaza.co/'>myaza website</a>
+									</small>
+								</h4>
+								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
+								Myaza offers a reliable way to send and receive money from any part of the world. 
+								</p>
+								<GitIcon link="https://github.com/Emmanuel-Ingwe" />
+							</div>
+						</article>
+
+					<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
+							<motion.img
+								initial={{
+									y: -100,
+									opacity: 0,
+								}}
+								transition={{
+									duration: 1.2,
+								}}
+								whileInView={{ opacity: 1, y: 0 }}
+								viewport={{ once: true }}
+								src='CarShow.png'
+								alt=''
+								className='h-52 w-64 md:w-96 xl:w-3/5 rounded-2xl object-cover object-center'
+							/>
+
+							<div className='px-0 md:px-10'>
+								<h4 className='text-3xl font-light'>
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 2 :</small>{" "}
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
 										<a href='https://car-show-plus.vercel.app/'>CarShow plus</a>
 									</small>
 								</h4>
@@ -51,6 +82,37 @@ function Projects({}: Props) {
 									A car rental app, built with nextjs, typescript and tailwind css.
 								</p>
 								<GitIcon link="https://github.com/Emmanuel-Ingwe/car_showPlus" />
+							</div>
+						</article>
+
+						<article className='flex flex-col items-center justify-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#161335] p-10 hover:opacity-100 opacity-40 cursor-pointed transition-opacity duration-200 overflow-hidden'>
+							<motion.img
+								initial={{
+									y: -100,
+									opacity: 0,
+								}}
+								transition={{
+									duration: 1.2,
+								}}
+								whileInView={{ opacity: 1, y: 0 }}
+								viewport={{ once: true }}
+								src='swidex.png'
+								alt=''
+								className='h-52 w-64 md:w-96 xl:w-3/5 rounded-2xl object-cover object-center'
+							/>
+
+							<div className='px-0 md:px-10'>
+								<h4 className='text-3xl font-light'>
+									Case study 1{" "}
+									<small className='font-thin text-gray-500'>of 3 :</small>{" "}
+									<small className='font-thin text-cyan-900 hover:text-cyan-700 transition duration-500'>
+										<a href='https://www.swidexpay.com/'>Swidex website</a>
+									</small>
+								</h4>
+								<p className=' text-gray-300 underline decoration-red-950 text-1xl mt-1'>
+								At Swidex Investment Limited, we are committed to helping you achieve your financial goals and build a secure future.
+								</p>
+								<GitIcon link="https://github.com/Emmanuel-Ingwe/" />
 							</div>
 						</article>
 						
