@@ -28,7 +28,7 @@ function About({}: Props) {
 					}}
 					whileInView={{ x: 0 }}
 					viewport={{ once: false }}
-					src='about-img.jpg'
+					src='about-img.webp'
 					// width='380px'
 					className='about-img top-40 rounded-[20%] -mb-32 w-60 h-64 md:mb-0 flex-shrink-0 object-cover md:w-[300px] md:h-96 xl:w-[340px] xl:h-[440px] xl:rounded-2xl sm:w-[200px] sm:h-[200px]'
 				/>
@@ -47,7 +47,7 @@ function About({}: Props) {
 						whileInView={{ y: 0 }}
 						viewport={{ once: false }}
 						className='text-base text-gray-500'>
-						I'm <b className='text-gray-400/95'>Emmanuel Ingwe</b>, <br /> a Frontend Developer with more than 3 years of experience, I have honed my skills in utilizing cutting-edge technologies like React and, coupled with a good understanding of Typescript. Throughout my career, I have consistently demonstrated my ability to deliver top-notch, visually captivating, and high-performing web applications in a timely manner.  I am passionate about using codes to create helpful projects and solving problems, debugging, testing, and going on with maintenance.
+						I'm <b className='text-gray-400/95'>Emmanuel Ingwe</b>, <br /> a Frontend Developer with more than 3 years of experience, I have honed my skills in utilizing cutting-edge technologies like React, coupled with a good understanding of Typescript. Throughout my career, I have consistently demonstrated my ability to deliver top-notch, visually captivating, and high-performing web applications in a timely manner.  I am passionate about using codes to create helpful projects and solving problems, debugging, testing, and going on with maintenance.
 					</motion.p>
 				</div>
 			</div>
