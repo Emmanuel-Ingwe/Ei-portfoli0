@@ -19,7 +19,7 @@ function index({}: Props) {
 	const { register, handleSubmit } = useForm<Inputs>();
 
 	const onSubmit: SubmitHandler<Inputs> = (formData) => {
-		window.location.href = `mailto:ingwemmanuel@gmail?subject=${formData.subject}&body=Hello, my name is ${formData.name}, ${formData.message} (${formData.email})`;
+		window.location.href = `mailto:ingwemmanuel@gmail?subject=${formData.subject}&body=Hello, my name is ${formData.name}, ${formData.message}`;
 	};
 
 	return (
