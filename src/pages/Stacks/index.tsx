@@ -206,7 +206,7 @@ function Stacks({ directionLeft }: Props) {
 									opacity: 0,
 								}}
 								transition={{
-									duration: 0.5,
+									duration: 0.8,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
 								src='ts.jpg'
