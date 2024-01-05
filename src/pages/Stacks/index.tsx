@@ -34,7 +34,7 @@ function Stacks({ directionLeft }: Props) {
 					</motion.h3>
 
 					<div className='grid grid-cols-2 gap-7 sm:grid-cols-4 xl:grid-cols-6 items-center justify-center md:mt-28 md:mb-0 mb-16 xl:mb-20'>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -49,7 +49,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -64,7 +64,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter grayscale group-hover:grayscale-0 transition duration-300 ease-in-out'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -79,7 +79,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -94,7 +94,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter grayscale group-hover:grayscale-0 transition duration-300 ease-in-out'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -109,7 +109,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -124,7 +124,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter grayscale group-hover:grayscale-0 transition duration-300 ease-in-out'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -139,7 +139,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -154,7 +154,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -169,7 +169,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter grayscale group-hover:grayscale-0 transition duration-300 ease-in-out'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -184,7 +184,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
@@ -199,7 +199,7 @@ function Stacks({ directionLeft }: Props) {
 								className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter transition duration-300 ease-in-out group-hover:grayscale'
 							/>
 						</div>
-						<div className='group relative flex cursor-pointer'>
+						<div className='group relative flex cursor-pointer'>💯
 							<motion.img
 								initial={{
 									x: directionLeft ? -500 : 200,
