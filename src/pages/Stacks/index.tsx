@@ -37,7 +37,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -52,7 +52,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -67,7 +67,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -82,7 +82,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -97,7 +97,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -112,7 +112,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -127,7 +127,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -142,7 +142,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -157,7 +157,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -172,7 +172,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -187,7 +187,7 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
@@ -202,11 +202,11 @@ function Stacks({ directionLeft }: Props) {
 						<div className='group relative flex cursor-pointer'>
 							<motion.img
 								initial={{
-									x: directionLeft ? -200 : 200,
+									x: directionLeft ? -500 : 200,
 									opacity: 0,
 								}}
 								transition={{
-									duration: 1,
+									duration: 0.5,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
 								src='ts.jpg'
