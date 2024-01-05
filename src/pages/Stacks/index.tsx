@@ -71,7 +71,7 @@ function Stacks({ directionLeft }: Props) {
 									opacity: 0,
 								}}
 								transition={{
-									duration: 1,
+									duration: 0.6,
 								}}
 								whileInView={{ opacity: 1, x: 0.5 }}
 								src='redux.jpg'
@@ -86,7 +86,7 @@ function Stacks({ directionLeft }: Props) {
 									opacity: 0,
 								}}
 								transition={{
-									duration: 1,
+									duration: 0.6,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
 								src='sanity.jpg'
@@ -101,7 +101,7 @@ function Stacks({ directionLeft }: Props) {
 									opacity: 0,
 								}}
 								transition={{
-									duration: 1,
+									duration: 0.6,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
 								src='sass.jpg'
@@ -116,7 +116,7 @@ function Stacks({ directionLeft }: Props) {
 									opacity: 0,
 								}}
 								transition={{
-									duration: 1,
+									duration: 0.6,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
 								src='figma.jpg'
@@ -131,7 +131,7 @@ function Stacks({ directionLeft }: Props) {
 									opacity: 0,
 								}}
 								transition={{
-									duration: 1,
+									duration: 0.8,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
 								src='next.jpg'
@@ -146,7 +146,7 @@ function Stacks({ directionLeft }: Props) {
 									opacity: 0,
 								}}
 								transition={{
-									duration: 1,
+									duration: 0.8,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
 								src='react.jpg'
@@ -161,7 +161,7 @@ function Stacks({ directionLeft }: Props) {
 									opacity: 0,
 								}}
 								transition={{
-									duration: 1,
+									duration: 0.8,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
 								src='git.jpg'
@@ -176,7 +176,7 @@ function Stacks({ directionLeft }: Props) {
 									opacity: 0,
 								}}
 								transition={{
-									duration: 1,
+									duration: 0.8,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
 								src='bs.jpg'
@@ -191,7 +191,7 @@ function Stacks({ directionLeft }: Props) {
 									opacity: 0,
 								}}
 								transition={{
-									duration: 1,
+									duration: 0.8,
 								}}
 								whileInView={{ opacity: 1, x: 0 }}
 								src='js.jpg'
