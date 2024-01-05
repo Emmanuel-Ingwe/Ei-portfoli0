@@ -121,7 +121,7 @@ function index({}: Props) {
 								}}
 								whileInView={{ y: 0 }}
 								viewport={{ once: false }}
-								placeholder='Message'
+								placeholder='Message🖋️'
 								className='contactInput'
 								typeof='text'
 								name='message'
