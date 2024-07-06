@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 const Home: NextPage = () => {
 	return (
-		<div className='scrollbar-thin scrollbar-track-gray-700/20 scrollbar-thumb-red-950'>
+		<div className='scrollbar-thin scrollbar-track-gray-700/20 scrollbar-thumb-red-900'>
 			<div className='gradient-01 h-screen text-gray-400 z-0 aboutt'>
 				<Head>
 					<title>E.i | Frontend Developer</title>
