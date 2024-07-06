@@ -18,7 +18,7 @@ function Projects({}: Props) {
 				<Header />
 
 				<div className='container flex flex-col items-center justify-center'>
-					<h3 className='uppercase tracking-[20px] text-gray-500 text-2xl m-10'>
+					<h3 className='uppercase tracking-[20px] text-gray-200 text-2xl m-10'>
 						Projects
 					</h3>
 

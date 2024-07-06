@@ -32,20 +32,20 @@ function index({}: Props) {
 				<Header />
 
 				<div className='container flex relative flex-col text-center max-w-7xl px-10 justify-evenly mx-auto items-center'>
-					<h3 className='tracking-[20px] uppercase text-gray-500 text-2xl m-10'>
+					<h3 className='tracking-[20px] uppercase text-gray-200 text-2xl m-10'>
 						Contact
 					</h3>
 
-					<div className='flex flex-col space-y-10 m-10'>
-						<h4 className='text-1xl font-semibold text-center md:text-2xl'>
-							I got what you looking for.{""} {""}
-							<span className='decoration-red-900 underline'>Let's talk</span>
+					<div className='flex flex-col space-y-10 m-10 items-center justify-center'>
+						<h4 className='text-1xl font-semibold text-center md:text-2xl text-gray-300'>
+								Perfect match. Let's discuss further.{""} {""}
+							<span className='decoration-red-900 underline'>Available at your convenience</span>
 						</h4>
 
 						<div className='space-y-10'>
 							<div className='flex items-center space-x-5 justify-center'>
 								<PhoneIcon className='text-red-900 h-7 w-7 animate-pulse' />
-								<p className='text-1xl animate-bounce'>
+								<p className='text-1xl animate-bounce text-gray-300'>
 									<a href='https://wa.me/message/5CHBOGLFKMBVB1'>
 										+2348139320656{" "}
 									</a>
@@ -91,6 +91,7 @@ function index({}: Props) {
 									whileInView={{ y: 0 }}
 									viewport={{ once: false }}
 									placeholder='Email'
+									required
 									className='contactInput mb-1'
 									type='email'
 								/>
@@ -124,6 +125,7 @@ function index({}: Props) {
 								placeholder='Message🖋️'
 								className='contactInput'
 								typeof='text'
+								required
 								name='message'
 								id=''></motion.textarea>
 

@@ -23,7 +23,7 @@ function Hero({}: Props) {
 					width='120px'
 					className='absolute rounded-full mt-16'
 				/>
-				<h2 className='absolute uppercase text-gray-700 bottom-32 tracking-[8px] text-sm'>
+				<h2 className='absolute uppercase text-gray-200 bottom-32 tracking-[8px] text-sm'>
 					Software Engineer
 				</h2>
 				<h1>
