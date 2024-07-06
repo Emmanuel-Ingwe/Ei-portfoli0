@@ -30,11 +30,11 @@
 .gradient-01 {
 	background-image: linear-gradient(
 		270deg,
-		hsl(263, 78%, 13%) 0%,
-		hsl(189, 91%, 4%) 50%,
-		hsl(260, 79%, 11%) 74%,
-		hsl(265, 100%, 10%) 61%,
-		hsl(260, 80%, 10%) 100%
+		hsl(0, 0%, 2%) 0%,
+		hsl(0, 0%, 1%) 50%,
+		hsl(0, 0%, 3%) 74%,
+		hsl(0, 0%, 2%) 61%,
+		hsl(0, 0%, 3%) 100%
 	);
 	background-size: cover;
 	background-position: top center;
