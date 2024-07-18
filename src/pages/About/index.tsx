@@ -3,10 +3,13 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Header from "../Header";
 import Footer from "../Footer";
+// import { useTranslation } from 'react-i18next';
 
 type Props = {};
 
 function About({}: Props) {
+	// const { t } = useTranslation();
+	
 	return (
 		<div className='gradient-01 h-screen w-full overflow-x-hidden overflow-y-scroll scrollbar-track-gray-700/20 scrollbar-thumb-red-950 scrollbar-thin'>
 			<Head>
